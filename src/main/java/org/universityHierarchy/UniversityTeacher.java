@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class UniversityTeacher extends Employee {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
     private String department;
     private String[] teacherClasses;
 

@@ -5,8 +5,8 @@ package org.universityHierarchy;
  */
 public class App {
 
-    private static String universityName = "Acme University";
-    private static String universityLocation = "SouthAmercia";
+    private static final String universityName = "Acme University";
+    private static final String universityLocation = "SouthAmercia";
 
 
     public static void main(String[] args) {
