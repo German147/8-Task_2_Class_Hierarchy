@@ -3,7 +3,7 @@ package org.universityHierarchy;
 
 import java.util.Date;
 
-public class Exam extends Course{
+public class Exam extends Course {
     private String examTitle;
     private Date examDateAndTime;
 
@@ -31,14 +31,7 @@ public class Exam extends Course{
         this.examDateAndTime = examDateAndTime;
     }
 
-   public void addStudentsToExam(){}
-    public void showQualification(){}
-
-    @Override
-    public String toString() {
-        return "Exam{" +
-                "examTitle='" + examTitle + '\'' +
-                ", examDateAndTime=" + examDateAndTime +
-                '}';
+    public void addStudentsToExam() {
     }
+
 }

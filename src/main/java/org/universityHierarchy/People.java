@@ -1,12 +1,10 @@
 package org.universityHierarchy;
 
-public class People extends Neighborhood{
+public class People extends Neighborhood {
 
     private String name;
     private String surname;
     private String phoneNumber;
-    private double monthlyPay;
-    private int payRate;
 
     public People() {
     }
@@ -51,43 +49,12 @@ public class People extends Neighborhood{
         this.phoneNumber = phoneNumber;
     }
 
-    public double getMonthlyPay() {
-        return monthlyPay;
-    }
-
-    public void setMonthlyPay(double monthlyPay) {
-        this.monthlyPay = monthlyPay;
-    }
-
-    public double getPayRate() {
-        return payRate;
-    }
-
-    public void setPayRate(int payRate) {
-        this.payRate = payRate;
-    }
-    public void showInfoPeople(String name,
-                               String surname,
-                               String phoneNumber){
-
-
-    }
-    public double calculatePayRate(){
-        return payRate;
-    }
-
-    public double calculateMonthlyPay(){
-        return monthlyPay;
-    }
-
     @Override
     public String toString() {
         return "People{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
-                ", monthlyPay=" + monthlyPay +
-                ", payRate=" + payRate +
                 '}';
     }
 }

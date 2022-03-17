@@ -1,34 +1,83 @@
 package org.universityHierarchy;
 
+import java.util.Scanner;
+
 public class Employee extends People {
 
-    private int payScale;
+    private int employee_Id;
 
     public Employee() {
     }
 
-    public Employee(int payScale) {
-        this.payScale = payScale;
+    public Employee(int employee_Id) {
+        this.employee_Id = employee_Id;
     }
 
-    public Employee(String name, String surname,
-                    String phoneNumber, int payScale) {
-        super(name, surname, phoneNumber);
-        this.payScale = payScale;
+    public int getEmployee_Id() {
+        return employee_Id;
     }
 
-    public int getPayScale() {
-        return payScale;
+    public void setEmployee_Id(int employee_Id) {
+        this.employee_Id = employee_Id;
     }
 
-    public void setPayScale(int payScale) {
-        this.payScale = payScale;
+    public void addEmployeeInformation() {
+
+        Scanner scanner = new Scanner(System.in);
+        Employee employee1 = new Employee();
+
+        System.out.println("Enter the following employee's data: ");
+        System.out.println("Enter your name");
+        String name = scanner.nextLine();
+        employee1.setName(name);
+        System.out.println("Enter your surname");
+        String surname = scanner.nextLine();
+        employee1.setSurname(surname);
+        System.out.println("Enter your phone number");
+        String phone = scanner.nextLine();
+        employee1.setPhoneNumber(phone);
+        System.out.println("Enter your neighborhood");
+        String neighborhood = scanner.nextLine();
+        employee1.setNeighborhoodName(neighborhood);
+        System.out.println("Enter the state you live");
+        String state = scanner.nextLine();
+        employee1.setStateName(state);
+        System.out.println("Enter country name");
+        String country = scanner.nextLine();
+        employee1.setCountryName(country);
+
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "payScale=" + payScale +
-                '}';
+    public int gettingYearsOfWork() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please, enter the number of working years");
+        int workingYears = scanner.nextInt();
+        return workingYears;
     }
+
+    public int gettingIncome() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the base monthly income");
+        int netIncome = scanner.nextInt();
+        return netIncome;
+    }
+
+    public int gettingPercentage(int workingYears) {
+        int percentage;
+        if (workingYears >= 7 && workingYears < 7) {
+            percentage = 3;
+        } else if (workingYears >= 10 && workingYears < 10) {
+            percentage = 5;
+        } else if (workingYears >= 10) {
+            percentage = 10;
+        } else percentage = 0;
+        return percentage;
+    }
+
+    public double calculateNetIncomeByWorkingYears(int netIncome, int percentage) {
+        double totalSalary = netIncome + (percentage * netIncome / 100);
+        return totalSalary;
+    }
+
+
 }

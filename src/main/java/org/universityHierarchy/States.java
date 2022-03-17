@@ -1,6 +1,6 @@
 package org.universityHierarchy;
 
-public class States extends Country{
+public class States extends Country {
 
     private String stateName;
 
@@ -19,10 +19,4 @@ public class States extends Country{
         this.stateName = stateName;
     }
 
-    @Override
-    public String toString() {
-        return "States{" +
-                "name='" + stateName + '\'' +
-                '}';
-    }
 }

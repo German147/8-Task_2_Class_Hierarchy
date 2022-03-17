@@ -4,10 +4,14 @@ package org.universityHierarchy;
  * Hello world!
  */
 public class App {
-    private String name;
-    private String location;
+
+    private static String universityName = "Acme University";
+    private static String universityLocation = "SouthAmercia";
+
 
     public static void main(String[] args) {
+        System.out.println(universityName);
+        System.out.println("This is located in " + universityLocation);
 
         UserInteractionClass user1 = new UserInteractionClass();
         String name = user1.greeting();
@@ -15,16 +19,38 @@ public class App {
         user1.welcomeUser(name);
         int category = user1.chooseCategoryUser();
         user1.chosenCategory(category);
-        user1.addStudentInformation(category);
-        user1.addTeacherInformation(category);
-        user1.addEmployeeInformation(category);
-
-
+        Student student = new Student();
+        UniversityTeacher teacher = new UniversityTeacher();
+        StaffEmployee staffEmployee = new StaffEmployee();
+        initializingEntities(student, teacher, staffEmployee, category);
 
     }
+
+    private static void initializingEntities(Student student, UniversityTeacher teacher,
+                                             StaffEmployee staffEmployee, int category) {
+        if (category == 1) {
+            student.addStudentInformation();
+
+        } else if (category == 2) {
+            teacher.addTeacherInformation();
+            System.out.println("Now let's calculate your salary");
+            int netIncome = staffEmployee.gettingIncome();
+            int workingYears = staffEmployee.gettingYearsOfWork();
+            int percentage = staffEmployee.gettingPercentage(workingYears);
+            double totalSalary = staffEmployee.calculateNetIncomeByWorkingYears(netIncome, percentage);
+            System.out.println("Your total salary is " + totalSalary);
+
+        } else if (category == 3) {
+            staffEmployee.addEmployeeInformation();
+            System.out.println("Now let's calculate your salary");
+            int netIncome = staffEmployee.gettingIncome();
+            int workingYears = staffEmployee.gettingYearsOfWork();
+            int percentage = staffEmployee.gettingPercentage(workingYears);
+            double totalSalary = staffEmployee.calculateNetIncomeByWorkingYears(netIncome, percentage);
+            System.out.println("Your total salary is " + totalSalary);
+
+        }
+    }
+
+
 }
-/*Your GPA, or Grade Point Average, is a number
-that indicates how well or how high you scored in
- your courses on average. It's meant to score you
-  (usually on a GPA scale between 1.0 and 4.0) during your studies
-  and shows whether your overall grades have been high or low.*/

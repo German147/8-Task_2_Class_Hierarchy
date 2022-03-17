@@ -1,70 +1,69 @@
 package org.universityHierarchy;
 
+import java.util.Scanner;
+
 public class Student extends People {
 
+    private int student_id;
     private double majorQualification;
     private double lowQualification;
-    private double averagePoints;
 
     public Student() {
     }
 
-    public Student(double majorQualification, double lowQualification,
-                   double averagePoints) {
+    public Student(int student_id, double majorQualification, double lowQualification) {
+        this.student_id = student_id;
         this.majorQualification = majorQualification;
         this.lowQualification = lowQualification;
-        this.averagePoints = averagePoints;
     }
 
-    public Student(String name, String surname, String phoneNumber,
-                   double majorQualification, double lowQualification,
-                   double averagePoints) {
+    public Student(String name, String surname, String phoneNumber, int student_id,
+                   double majorQualification, double lowQualification) {
         super(name, surname, phoneNumber);
+        this.student_id = student_id;
         this.majorQualification = majorQualification;
         this.lowQualification = lowQualification;
-        this.averagePoints = averagePoints;
     }
 
-    public double getMajorQualification() {
-        return majorQualification;
-    }
-
-    public void setMajorQualification(double majorQualification) {
-        this.majorQualification = majorQualification;
-    }
-
-    public double getLowQualification() {
-        return lowQualification;
-    }
-
-    public void setLowQualification(double lowQualification) {
-        this.lowQualification = lowQualification;
-    }
-
-    public double getAveragePoints() {
-        return averagePoints;
-    }
-
-    public void setAveragePoints(double averagePoints) {
-        this.averagePoints = averagePoints;
-    }
-
-    public double getAveragePoint() {
+    public double getGradePointAverage() {
+        double averagePoints = 0;
         return averagePoints;
 
     }
 
-    public void showStudentInformation(String name, String surname,
-                                       String phoneNumber) {
+    public int getExamsTotalQualifications() {
+        int totalQualifications = 0;
+        return totalQualifications;
     }
 
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "majorQualification='" + majorQualification + '\'' +
-                ", lowQualification='" + lowQualification + '\'' +
-                ", averagePoints=" + averagePoints +
-                '}';
+    public int getExamsNumber() {
+        int examsNumber = 0;
+        return examsNumber;
     }
+
+    public void addStudentInformation() {
+        Scanner scanner = new Scanner(System.in);
+        Student student1 = new Student();
+
+        System.out.println("Enter the following student's data: ");
+        System.out.println("Enter your name");
+        String name = scanner.nextLine();
+        student1.setName(name);
+        System.out.println("Enter your surname");
+        String surname = scanner.nextLine();
+        student1.setSurname(surname);
+        System.out.println("Enter your phone number");
+        String phone = scanner.nextLine();
+        student1.setPhoneNumber(phone);
+        System.out.println("Enter your neighborhood");
+        String neighborhood = scanner.nextLine();
+        student1.setNeighborhoodName(neighborhood);
+        System.out.println("Enter the state you live");
+        String state = scanner.nextLine();
+        student1.setStateName(state);
+        System.out.println("Enter country name");
+        String country = scanner.nextLine();
+        student1.setCountryName(country);
+    }
+
 }

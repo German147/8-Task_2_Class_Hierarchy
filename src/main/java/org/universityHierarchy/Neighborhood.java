@@ -18,11 +18,4 @@ public class Neighborhood extends States{
     public void setNeighborhoodName(String neighborhoodName) {
         this.neighborhoodName = neighborhoodName;
     }
-
-    @Override
-    public String toString() {
-        return "Neighborhood{" +
-                "name='" + neighborhoodName + '\'' +
-                '}';
-    }
 }

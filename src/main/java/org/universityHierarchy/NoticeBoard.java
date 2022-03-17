@@ -21,14 +21,7 @@ public class NoticeBoard {
 
     public void showExamNotice() {
     }
-
     public void showPaymentNotice() {
     }
 
-    @Override
-    public String toString() {
-        return "NoticeBoard{" +
-                "noticeTile='" + noticeTile + '\'' +
-                '}';
-    }
 }
