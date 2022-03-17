@@ -23,14 +23,13 @@ public class App {
         UniversityTeacher teacher = new UniversityTeacher();
         StaffEmployee staffEmployee = new StaffEmployee();
         initializingEntities(student, teacher, staffEmployee, category);
-
     }
 
     private static void initializingEntities(Student student, UniversityTeacher teacher,
                                              StaffEmployee staffEmployee, int category) {
         if (category == 1) {
             student.addStudentInformation();
-
+// TODO: 17/3/2022 implement student methods 
         } else if (category == 2) {
             teacher.addTeacherInformation();
             System.out.println("Now let's calculate your salary");
