@@ -1,20 +1,11 @@
 package org.universityHierarchy;
 
-public class People extends Neighborhood {
-
+public abstract class People {
     private String name;
     private String surname;
     private String phoneNumber;
 
     public People() {
-    }
-
-    public People(String name,
-                  String surname,
-                  String phoneNumber) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
     }
 
     public String getName() {
@@ -23,14 +14,6 @@ public class People extends Neighborhood {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getStateName() {
-        return name;
-    }
-
-    public void setStateName(String stateName) {
-        this.name = stateName;
     }
 
     public String getSurname() {
@@ -47,14 +30,5 @@ public class People extends Neighborhood {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }
-
-    @Override
-    public String toString() {
-        return "People{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                '}';
     }
 }
