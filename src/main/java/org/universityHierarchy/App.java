@@ -15,7 +15,7 @@ public class App {
 
         UserInteractionClass user1 = new UserInteractionClass();
         String name = user1.greeting();
-        user1.setName(name);
+        user1.setUserName(name);
         user1.welcomeUser(name);
         int category = user1.chooseCategoryUser();
         user1.chosenCategory(category);

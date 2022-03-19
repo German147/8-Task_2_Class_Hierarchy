@@ -42,7 +42,7 @@ public class UniversityTeacher extends Employee {
         System.out.println("Enter the following teacher's data: ");
         System.out.println("Enter your name");
         String name = scanner.nextLine();
-        teacher1.setName(name);
+        teacher1.setUserName(name);
         System.out.println("Enter your surname");
         String surname = scanner.nextLine();
         teacher1.setSurname(surname);

@@ -34,7 +34,7 @@ public class Student extends People {
         System.out.println("Enter the following student's data: ");
         System.out.println("Enter your name");
         String name = scanner.nextLine();
-        student1.setName(name);
+        student1.setUserName(name);
         System.out.println("Enter your surname");
         String surname = scanner.nextLine();
         student1.setSurname(surname);

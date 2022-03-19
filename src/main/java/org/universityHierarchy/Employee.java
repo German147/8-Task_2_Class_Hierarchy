@@ -25,7 +25,7 @@ public class Employee extends People {
         System.out.println("Enter the following employee's data: ");
         System.out.println("Enter your name");
         String name = scanner.nextLine();
-        employee1.setName(name);
+        employee1.setUserName(name);
         System.out.println("Enter your surname");
         String surname = scanner.nextLine();
         employee1.setSurname(surname);

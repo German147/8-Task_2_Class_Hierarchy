@@ -4,35 +4,26 @@ import java.util.Scanner;
 
 public class UserInteractionClass extends People {
 
-    private String name;
-    private int categoryUser;
-
-    public UserInteractionClass(String name) {
-        this.name = name;
-    }
+    private String userName;
+    private int userCategory;
 
     public UserInteractionClass() {
     }
 
-    public UserInteractionClass(String name, int categoryUser) {
-        this.name = name;
-        this.categoryUser = categoryUser;
+    public String getUserName() {
+        return userName;
     }
 
-    public String getName() {
-        return name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getUserCategory() {
+        return userCategory;
     }
 
-    public int getCategoryUser() {
-        return categoryUser;
-    }
-
-    public void setCategoryUser(int categoryUser) {
-        this.categoryUser = categoryUser;
+    public void setUserCategory(int userCategory) {
+        this.userCategory = userCategory;
     }
 
     public String greeting() {
