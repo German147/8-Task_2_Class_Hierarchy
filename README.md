@@ -9,5 +9,6 @@ There is a UserInteractionClass, it is to make the application more friendly to 
 Next, there is an image of a UML diagram indicating the relationship among classes.
 
 
-![Class-Hierarchy-University](https://user-images.githubusercontent.com/69442805/158890289-197ff8ef-105c-43cb-a171-20826691e21e.png)
 
+
+![Class-Hierarchy-University - Página 2](https://user-images.githubusercontent.com/69442805/159123905-a9ad8931-7219-4938-8cb3-a5aeb255f061.png)
