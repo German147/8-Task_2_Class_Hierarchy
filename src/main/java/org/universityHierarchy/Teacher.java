@@ -1,22 +1,15 @@
 package org.universityHierarchy;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class UniversityTeacher extends Employee {
+public class Teacher extends TeacherInformation {
 
     private static final Scanner scanner = new Scanner(System.in);
     private String department;
     private String[] teacherClasses;
 
-    public UniversityTeacher() {
+    public Teacher() {
 
-    }
-
-    public UniversityTeacher(String department,
-                             String[] teacherClasses) {
-        this.department = department;
-        this.teacherClasses = teacherClasses;
     }
 
     public String getDepartment() {
@@ -37,7 +30,7 @@ public class UniversityTeacher extends Employee {
 
     public void addTeacherInformation() {
         Scanner scanner = new Scanner(System.in);
-        UniversityTeacher teacher1 = new UniversityTeacher();
+        Teacher teacher1 = new Teacher();
 
         System.out.println("Enter the following teacher's data: ");
         System.out.println("Enter your name");
@@ -70,10 +63,24 @@ public class UniversityTeacher extends Employee {
     }
 
     @Override
-    public String toString() {
-        return "UniversityTeacher{" +
-                "department='" + department + '\'' +
-                ", teacherClasses=" + Arrays.toString(teacherClasses) +
-                '}';
+    public void createClasses() {
+        System.out.println("Enter the number of topics of a lecture: ");
+        int topicsNumber = scanner.nextInt();
     }
+
+    @Override
+    public void createExams() {
+        System.out.println("Create your Exam");
+    }
+
+    @Override
+    public void takeAssistance() {
+        System.out.println("Teacher takes assistance");
+    }
+
+    @Override
+    public void createYearlyPlanningTopics() {
+        System.out.println("Teacher creates the yearly planning topics ");
+    }
+
 }

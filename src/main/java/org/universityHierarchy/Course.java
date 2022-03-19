@@ -2,18 +2,12 @@ package org.universityHierarchy;
 
 import java.util.Date;
 
-public class Course {
+public class Course extends CourseInformation{
     private String courseName;
     private String courseDay;
     private Date courseTime;
 
     public Course() {
-    }
-
-    public Course(String courseName, String courseDay, Date courseTime) {
-        this.courseName = courseName;
-        this.courseDay = courseDay;
-        this.courseTime = courseTime;
     }
 
     public String getCourseName() {
@@ -40,19 +34,43 @@ public class Course {
         this.courseTime = courseTime;
     }
 
-    public void addStudentsToCourse() {
-    }
-
-    public void viewExam() {
+    @Override
+    void takeStudentList() {
 
     }
 
     @Override
-    public String toString() {
-        return "Course{" +
-                "courseName='" + courseName + '\'' +
-                ", courseDay='" + courseDay + '\'' +
-                ", courseTime=" + courseTime +
-                '}';
+    void addStudentsToCourse() {
+
+    }
+
+    @Override
+    void viewExam() {
+
+    }
+
+    @Override
+    public void createWorkshop() {
+        System.out.println("Workshop is created");
+    }
+
+    @Override
+    public void createStudyTravel() {
+        System.out.println("Study travel is created");
+    }
+
+    @Override
+    public void setExams() {
+        System.out.println("Exams are set");
+    }
+
+    @Override
+    public void provideRecordedClasses() {
+        System.out.println("Recorded lecture is provided");
+    }
+
+    @Override
+    public void provideReadingMaterials() {
+        System.out.println("Provided reading Material is done");
     }
 }
