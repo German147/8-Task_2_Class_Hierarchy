@@ -17,14 +17,6 @@ public class Student extends People {
         this.lowQualification = lowQualification;
     }
 
-    public Student(String name, String surname, String phoneNumber, int student_id,
-                   double majorQualification, double lowQualification) {
-        super(name, surname, phoneNumber);
-        this.student_id = student_id;
-        this.majorQualification = majorQualification;
-        this.lowQualification = lowQualification;
-    }
-
     public double getGradePointAverage() {
         double averagePoints = 0;
         return averagePoints;

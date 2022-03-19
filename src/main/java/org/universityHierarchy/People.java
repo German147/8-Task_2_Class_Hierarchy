@@ -1,6 +1,6 @@
 package org.universityHierarchy;
 
-public abstract class People {
+public class People extends Neighborhood{
     private String name;
     private String surname;
     private String phoneNumber;

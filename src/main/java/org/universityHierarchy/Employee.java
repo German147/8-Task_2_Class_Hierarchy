@@ -2,7 +2,7 @@ package org.universityHierarchy;
 
 import java.util.Scanner;
 
-public class Employee extends People {
+public class Employee extends EmployeeInformation {
 
     private int employee_Id;
 
@@ -48,6 +48,7 @@ public class Employee extends People {
 
     }
 
+    @Override
     public int gettingYearsOfWork() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter the number of working years");
@@ -55,15 +56,17 @@ public class Employee extends People {
         return workingYears;
     }
 
-    public int gettingIncome() {
+    @Override
+    public double gettingIncome() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the base monthly income");
-        int netIncome = scanner.nextInt();
+        double netIncome = scanner.nextInt();
         return netIncome;
     }
 
-    public int gettingPercentage(int workingYears) {
-        int percentage;
+    @Override
+    public double gettingPercentage(int workingYears) {
+        double percentage;
         if (workingYears >= 7 && workingYears < 7) {
             percentage = 3;
         } else if (workingYears >= 10 && workingYears < 10) {
@@ -74,10 +77,10 @@ public class Employee extends People {
         return percentage;
     }
 
-    public double calculateNetIncomeByWorkingYears(int netIncome, int percentage) {
+    @Override
+    public double calculateNetIncomeByWorkingYears(double netIncome, double percentage) {
         double totalSalary = netIncome + (percentage * netIncome / 100);
         return totalSalary;
     }
-
 
 }
