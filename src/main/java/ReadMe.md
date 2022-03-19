@@ -7,4 +7,3 @@ There is a UserInteractionClass, it is to make the application more friendly to 
 
 Next, there is an image of a UML diagram indicating the relationship among classes.
 
-![](UML-Image/Class-Hierarchy-University.png)

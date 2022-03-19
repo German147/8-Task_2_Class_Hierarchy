@@ -7,10 +7,6 @@ public class NoticeBoard {
     public NoticeBoard() {
     }
 
-    public NoticeBoard(String noticeTile) {
-        this.noticeTile = noticeTile;
-    }
-
     public String getNoticeTile() {
         return noticeTile;
     }

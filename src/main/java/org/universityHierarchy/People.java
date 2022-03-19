@@ -9,14 +9,6 @@ public class People extends Neighborhood {
     public People() {
     }
 
-    public People(String name,
-                  String surname,
-                  String phoneNumber) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
-    }
-
     public String getName() {
         return name;
     }

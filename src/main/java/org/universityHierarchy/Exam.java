@@ -9,12 +9,6 @@ public class Exam extends Course {
 
     public Exam() {
     }
-
-    public Exam(String examTitle, Date examDateAndTime) {
-        this.examTitle = examTitle;
-        this.examDateAndTime = examDateAndTime;
-    }
-
     public String getExamTitle() {
         return examTitle;
     }

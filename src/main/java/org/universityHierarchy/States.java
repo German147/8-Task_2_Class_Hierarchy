@@ -7,10 +7,6 @@ public class States extends Country {
     public States() {
     }
 
-    public States(String stateName) {
-        this.stateName = stateName;
-    }
-
     public String getStateName() {
         return stateName;
     }

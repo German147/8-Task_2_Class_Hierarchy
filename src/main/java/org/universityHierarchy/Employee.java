@@ -9,10 +9,6 @@ public class Employee extends People {
     public Employee() {
     }
 
-    public Employee(int employee_Id) {
-        this.employee_Id = employee_Id;
-    }
-
     public int getEmployee_Id() {
         return employee_Id;
     }
