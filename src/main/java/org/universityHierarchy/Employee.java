@@ -9,10 +9,6 @@ public class Employee extends People {
     public Employee() {
     }
 
-    public Employee(int employee_Id) {
-        this.employee_Id = employee_Id;
-    }
-
     public int getEmployee_Id() {
         return employee_Id;
     }
@@ -29,7 +25,7 @@ public class Employee extends People {
         System.out.println("Enter the following employee's data: ");
         System.out.println("Enter your name");
         String name = scanner.nextLine();
-        employee1.setName(name);
+        employee1.setUserName(name);
         System.out.println("Enter your surname");
         String surname = scanner.nextLine();
         employee1.setSurname(surname);

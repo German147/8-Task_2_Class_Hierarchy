@@ -9,20 +9,12 @@ public class People extends Neighborhood {
     public People() {
     }
 
-    public People(String name,
-                  String surname,
-                  String phoneNumber) {
-        this.name = name;
-        this.surname = surname;
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getName() {
+    public String getUserName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserName(String userName) {
+        this.name = userName;
     }
 
     public String getStateName() {
