@@ -1,4 +1,4 @@
-package org.universityHierarchy;
+package org.universityHierarchy.service;
 
 public interface ITeacher {
 
@@ -11,6 +11,8 @@ public interface ITeacher {
     void takeAssistance();
 
     void createYearlyPlanningTopics();
+
+    void addSubject();
 
 
 }

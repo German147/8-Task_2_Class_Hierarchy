@@ -1,9 +1,14 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.universityHierarchy.exceptions.PercentageNotFoundException;
 
 import java.util.Scanner;
 
 public class Employee extends EmployeeInformation {
 
+    private static final Logger LOGGER = LogManager.getLogger(Employee.class);
     private int employee_Id;
 
     public Employee() {
@@ -25,7 +30,7 @@ public class Employee extends EmployeeInformation {
         System.out.println("Enter the following employee's data: ");
         System.out.println("Enter your name");
         String name = scanner.nextLine();
-        employee1.setUserName(name);
+        employee1.setName(name);
         System.out.println("Enter your surname");
         String surname = scanner.nextLine();
         employee1.setSurname(surname);
@@ -41,21 +46,23 @@ public class Employee extends EmployeeInformation {
         System.out.println("Enter country name");
         String country = scanner.nextLine();
         employee1.setCountryName(country);
+        LOGGER.info("All employee information was set");
 
     }
 
     @Override
     public int gettingYearsOfWork() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please, enter the number of working years");
+        LOGGER.info("Please, enter the number of working years");
         int workingYears = scanner.nextInt();
+        LOGGER.info("The Working years was set");
         return workingYears;
     }
 
     @Override
     public double gettingIncome() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the base monthly income");
+        LOGGER.info("Enter the base monthly income");
         double netIncome = scanner.nextInt();
         return netIncome;
     }
@@ -63,14 +70,19 @@ public class Employee extends EmployeeInformation {
     @Override
     public double gettingPercentage(int workingYears) {
         double percentage;
-        if (workingYears >= 7 && workingYears < 7) {
-            percentage = 3;
-        } else if (workingYears >= 10 && workingYears < 10) {
-            percentage = 5;
-        } else if (workingYears >= 10) {
-            percentage = 10;
-        } else percentage = 0;
-        return percentage;
+        try {
+            if (workingYears >= 7 && workingYears < 7) {
+                percentage = 3;
+            } else if (workingYears >= 10 && workingYears < 10) {
+                percentage = 5;
+            } else if (workingYears >= 10) {
+                percentage = 10;
+            } else percentage = 0;
+            return percentage;
+        }catch (RuntimeException e){
+            LOGGER.debug(e);
+            throw new PercentageNotFoundException("Enter a number from 1 to 30");
+        }
     }
 
     @Override

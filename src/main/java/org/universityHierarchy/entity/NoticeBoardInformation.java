@@ -1,6 +1,8 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
 
-public abstract class NoticeBoardInformation implements INoticeBoard{
+import org.universityHierarchy.service.INoticeBoard;
+
+public abstract class NoticeBoardInformation implements INoticeBoard {
 
     public abstract void showMonthlyActivityCalendar();
 

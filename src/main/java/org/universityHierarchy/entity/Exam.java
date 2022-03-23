@@ -1,4 +1,4 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
 
 
 import java.util.Date;

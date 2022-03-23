@@ -1,15 +1,24 @@
 package org.universityHierarchy;
 
-/**
- * Hello world!
- */
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.universityHierarchy.entity.*;
+
+
 public class App {
+    private static final Logger LOGGER = LogManager.getLogger(App.class);
 
-    private static final String universityName = "Acme University";
+
+    private static final String universityName = "Cordoba University";
     private static final String universityLocation = "SouthAmercia";
-
+    // TODO: 23/3/2022 noticeBoard's methods
+    // TODO: 23/3/2022 student's methods
+    // TODO: 23/3/2022 teacher's methods
 
     public static void main(String[] args) {
+
+        LOGGER.debug("Hola chicos");
         System.out.println(universityName);
         System.out.println("This is located in " + universityLocation);
 
@@ -24,15 +33,20 @@ public class App {
         StaffEmployee staffEmployee = new StaffEmployee();
         initializingEntities(student, teacher, staffEmployee, category);
 
+
     }
 
     private static void initializingEntities(Student student, Teacher teacher,
                                              StaffEmployee staffEmployee, int category) {
         if (category == 1) {
             student.addStudentInformation();
-// TODO: 17/3/2022 implement student methods 
         } else if (category == 2) {
             teacher.addTeacherInformation();
+            Course course = new Course();
+            String[] subjects = course.addSubjectToCourse();
+            course.printSubjects(subjects);
+            String[] students = course.addStudentToCourse();
+            course.printStudents(students);
             System.out.println("Now let's calculate your salary");
             double netIncome = staffEmployee.gettingIncome();
             int workingYears = staffEmployee.gettingYearsOfWork();

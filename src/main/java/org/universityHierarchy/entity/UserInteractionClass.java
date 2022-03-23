@@ -1,10 +1,17 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
+
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
 public class UserInteractionClass extends People {
 
-    private String userName;
+    private static final Logger LOGGER = LogManager.getLogger(UserInteractionClass.class);
+
+    private  String userName;
     private int userCategory;
 
     public UserInteractionClass() {
@@ -14,7 +21,7 @@ public class UserInteractionClass extends People {
         return userName;
     }
 
-    public void setUserName(String userName) {
+    public  void setUserName(String userName) {
         this.userName = userName;
     }
 
@@ -49,7 +56,7 @@ public class UserInteractionClass extends People {
     public void chosenCategory(int category) {
         switch (category) {
             case 1:
-                System.out.println("As a student you can: \n" +
+                LOGGER.info("As a student you can: \n" +
                         "Set your Information \n " +
                         " Get your average point \n" +
                         " Get your highest qualification \n" +
@@ -57,13 +64,13 @@ public class UserInteractionClass extends People {
                         " Set the amount of taken exams ");
                 break;
             case 2:
-                System.out.println("As a teacher you can:" +
+                LOGGER.info("As a teacher you can:" +
                         "Add classes \n" +
                         "Create exams \n" +
                         "Calculate payment");
                 break;
             case 3:
-                System.out.println("Or a Staff Employee you can " +
+                LOGGER.info("Or a Staff Employee you can " +
                         "See your Information \n" +
                         "Calculate pay \n");
         }

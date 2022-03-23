@@ -1,9 +1,14 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
 public class Student extends People {
 
+    private static final Logger LOGGER = LogManager.getLogger(Student.class);
     private int student_id;
     private double majorQualification;
     private double lowQualification;
@@ -11,10 +16,10 @@ public class Student extends People {
     public Student() {
     }
 
-    public double getGradePointAverage() {
-        double averagePoints = 0;
-        return averagePoints;
-
+    public Student(int student_id, double majorQualification, double lowQualification) {
+        this.student_id = student_id;
+        this.majorQualification = majorQualification;
+        this.lowQualification = lowQualification;
     }
 
     public int getExamsTotalQualifications() {
@@ -30,26 +35,26 @@ public class Student extends People {
     public void addStudentInformation() {
         Scanner scanner = new Scanner(System.in);
         Student student1 = new Student();
-
-        System.out.println("Enter the following student's data: ");
-        System.out.println("Enter your name");
+        LOGGER.info("Enter the following student's data: ");
+        LOGGER.info("Enter your name");
         String name = scanner.nextLine();
-        student1.setUserName(name);
-        System.out.println("Enter your surname");
+        student1.setName(name);
+        LOGGER.info("Enter your surname");
         String surname = scanner.nextLine();
         student1.setSurname(surname);
-        System.out.println("Enter your phone number");
+        LOGGER.info("Enter your phone number");
         String phone = scanner.nextLine();
         student1.setPhoneNumber(phone);
-        System.out.println("Enter your neighborhood");
+        LOGGER.info("Enter your neighborhood");
         String neighborhood = scanner.nextLine();
         student1.setNeighborhoodName(neighborhood);
-        System.out.println("Enter the state you live");
+        LOGGER.info("Enter the state you live");
         String state = scanner.nextLine();
         student1.setStateName(state);
-        System.out.println("Enter country name");
+        LOGGER.info("Enter country name");
         String country = scanner.nextLine();
         student1.setCountryName(country);
+        LOGGER.info("All Student information was set");
     }
 
 }

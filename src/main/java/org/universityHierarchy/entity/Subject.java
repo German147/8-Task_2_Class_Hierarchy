@@ -1,4 +1,4 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
 
 public class Subject extends Course {
 
@@ -19,7 +19,5 @@ public class Subject extends Course {
         this.subjectName = subjectName;
     }
 
-    public void addSubject(){
 
-    }
 }

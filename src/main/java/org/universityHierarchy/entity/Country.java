@@ -1,4 +1,4 @@
-package org.universityHierarchy;
+package org.universityHierarchy.entity;
 
 public class Country{
 
