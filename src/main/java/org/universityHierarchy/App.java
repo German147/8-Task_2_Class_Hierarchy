@@ -21,7 +21,7 @@ public class App {
     private static final String universityName = "Cordoba University";
     private static final String universityLocation = "SouthAmercia";
     // TODO: 23/3/2022 teacher's methods
-    // TODO: 24/3/2022 analize clean
+    // TODO: 24/3/2022 analyze clean
 
     public static void main(String[] args) {
         System.out.println(universityName);
