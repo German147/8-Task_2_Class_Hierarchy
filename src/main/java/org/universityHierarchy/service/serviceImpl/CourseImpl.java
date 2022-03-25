@@ -4,7 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.exceptions.*;
 import org.universityHierarchy.service.ICourse;
-import org.universityHierarchy.service.IStudent;
 import org.universityHierarchy.service.ISubject;
 
 import java.util.Scanner;
@@ -53,8 +52,8 @@ public class CourseImpl implements ISubject, ICourse {
 
     @Override
     public void printWorkshop(String[] workshop) {
-        for (int i = 0; i < workshop.length; i++) {
-            LOGGER.info(workshop[i] + " | ");
+        for (String s : workshop) {
+            LOGGER.info(s + " | ");
         }
     }
 
@@ -76,8 +75,8 @@ public class CourseImpl implements ISubject, ICourse {
 
     @Override
     public void printStudents(String[] students) {
-        for (int i = 0; i < students.length; i++) {
-            LOGGER.info(students[i]);
+        for (String student : students) {
+            LOGGER.info(student);
         }
     }
 
@@ -98,8 +97,8 @@ public class CourseImpl implements ISubject, ICourse {
 
     @Override
     public void printTeachers(String[] teachers) {
-        for (int i = 0; i < teachers.length; i++) {
-            LOGGER.info(teachers[i]);
+        for (String teacher : teachers) {
+            LOGGER.info(teacher);
         }
     }
 

@@ -20,9 +20,8 @@ public class App {
     private static final Logger LOGGER = LogManager.getLogger(App.class);
     private static final String universityName = "Cordoba University";
     private static final String universityLocation = "SouthAmercia";
-    // TODO: 23/3/2022 noticeBoard's methods
-    // TODO: 23/3/2022 student's methods
     // TODO: 23/3/2022 teacher's methods
+    // TODO: 24/3/2022 analize clean
 
     public static void main(String[] args) {
         System.out.println(universityName);

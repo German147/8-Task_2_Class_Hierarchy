@@ -15,7 +15,7 @@ public class NoticeBoardImpl implements INoticeBoard {
 
     @Override
     public void showResultQualifications() {
-        LOGGER.info("The result qualification will be abailable soon");
+        LOGGER.info("The result qualification will be available soon");
     }
 
     @Override

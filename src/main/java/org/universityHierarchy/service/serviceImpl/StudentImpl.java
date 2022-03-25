@@ -9,6 +9,7 @@ import org.universityHierarchy.service.IStudent;
 
 import java.util.Scanner;
 
+@SuppressWarnings("SpellCheckingInspection")
 public class StudentImpl extends People implements IStudent {
 
     private static final Logger LOGGER = LogManager.getLogger(StudentImpl.class);
@@ -43,7 +44,7 @@ public class StudentImpl extends People implements IStudent {
 
     @Override
     public int setExamsQuantity() {
-        int examsNumber = 0;
+        int examsNumber;
         LOGGER.info("Enter the amount of exams taken: ");
         examsNumber = scanner.nextInt();
         return examsNumber;

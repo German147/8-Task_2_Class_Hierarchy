@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class EmployeeImpl extends EmployeeInformation implements IEmployee {
 
     private static final Logger LOGGER = LogManager.getLogger(Employee.class);
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     @Override
     public void addEmployeeInformation() {
@@ -57,11 +57,7 @@ public class EmployeeImpl extends EmployeeInformation implements IEmployee {
     public double gettingPercentage(int workingYears) {
         double percentage;
         try {
-            if (workingYears >= 7 && workingYears < 7) {
-                percentage = 3;
-            } else if (workingYears >= 10 && workingYears < 10) {
-                percentage = 5;
-            } else if (workingYears >= 10) {
+            if (workingYears >= 10) {
                 percentage = 10;
             } else percentage = 0;
             return percentage;
