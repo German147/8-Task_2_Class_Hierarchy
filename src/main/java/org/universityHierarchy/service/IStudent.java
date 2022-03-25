@@ -4,7 +4,21 @@ public interface IStudent {
 
     int STUDENT_LENGTH = 5;
 
-    String[] addStudentToCourse();
+    int getExamsTotalAverageQualifications(double qualifications,int examsNumber );
 
-    void printStudents(String students[]);
+    int setExamsQuantity();
+
+    void addStudentInformation();
+
+    int getHighestQualification(int[] qualifications);
+
+    int getLowestQualification(int[] qualifications);
+
+    int[] setQualificationsExams(int quantityExams);
+
+    double calculateSumOfQualifications(int[] qualifications);
+
+
+
+
 }

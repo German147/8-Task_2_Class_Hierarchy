@@ -1,4 +1,4 @@
-package org.universityHierarchy.entity;
+package org.universityHierarchy.service.serviceImpl;
 
 import org.universityHierarchy.service.INoticeBoard;
 
@@ -10,11 +10,6 @@ public abstract class NoticeBoardInformation implements INoticeBoard {
 
     @Override
     public void showExamNotice() {
-
-    }
-
-    @Override
-    public void showPaymentNotice() {
 
     }
 

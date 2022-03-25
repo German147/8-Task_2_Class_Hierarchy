@@ -4,11 +4,21 @@ public interface ICourse {
 
     int WORKSHOP_LENGTH = 5;
 
-    void printWorkshop(String workshop[]);
-
     String[] createWorkshop();
 
+    void printWorkshop(String workshop[]);
 
+    String[] addSubjectToCourse();
+
+   void printSubjects(String subjects[]);
+
+    String[] addStudentToCourse();
+
+    void printStudents(String students[]);
+
+    String[] addTeachers();
+
+    void printTeachers(String teachers[]);
 
 
 }

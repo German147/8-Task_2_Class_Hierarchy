@@ -4,6 +4,7 @@ package org.universityHierarchy.entity;
 import java.util.Date;
 
 public class Exam extends Course {
+
     private String examTitle;
     private Date examDateAndTime;
 
@@ -25,7 +26,5 @@ public class Exam extends Course {
         this.examDateAndTime = examDateAndTime;
     }
 
-    public void addStudentsToExam() {
-    }
 
 }
