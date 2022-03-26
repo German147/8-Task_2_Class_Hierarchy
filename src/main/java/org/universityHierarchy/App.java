@@ -24,6 +24,7 @@ public class App {
     // TODO: 24/3/2022 analyze clean
 
     public static void main(String[] args) {
+
         System.out.println(universityName);
         System.out.println("This is located in " + universityLocation);
 
@@ -49,13 +50,13 @@ public class App {
             notice.showDateExams();
             notice.showResultQualifications();
             notice.showDateExams();
-          //  student.addStudentInformation();
+            //  student.addStudentInformation();
             int examsNumber = student.setExamsQuantity();
             int[] examsNotes = student.setQualificationsExams(examsNumber);
             int lowestQualification = student.getLowestQualification(examsNotes);
             int highestQualification = student.getHighestQualification(examsNotes);
             double sumOfQualifications = student.calculateSumOfQualifications(examsNotes);
-            double totalAverageQualification = student.getExamsTotalAverageQualifications(sumOfQualifications,examsNumber);
+            double totalAverageQualification = student.getExamsTotalAverageQualifications(sumOfQualifications, examsNumber);
             LOGGER.info("The lowest qualification is : " + lowestQualification);
             LOGGER.info("The highest qualification is : " + highestQualification);
             LOGGER.info("The total average qualification is : " + totalAverageQualification);

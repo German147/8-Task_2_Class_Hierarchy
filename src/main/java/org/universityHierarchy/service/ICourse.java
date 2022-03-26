@@ -6,9 +6,9 @@ public interface ICourse {
 
     String[] createWorkshop();
 
-    void printWorkshop(String workshop[]);
-
     String[] addSubjectToCourse();
+
+    void printWorkshop(String workshop[]);
 
    void printSubjects(String subjects[]);
 

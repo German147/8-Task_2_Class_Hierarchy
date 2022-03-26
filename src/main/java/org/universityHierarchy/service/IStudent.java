@@ -2,8 +2,6 @@ package org.universityHierarchy.service;
 
 public interface IStudent {
 
-    int STUDENT_LENGTH = 5;
-
     int getExamsTotalAverageQualifications(double qualifications,int examsNumber );
 
     int setExamsQuantity();

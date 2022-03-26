@@ -2,30 +2,41 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.exceptions.*;
+import org.universityHierarchy.exceptions.AddStudentToCourseException;
+import org.universityHierarchy.exceptions.AddTeachersToCourseException;
+import org.universityHierarchy.exceptions.CreateWorkShopException;
+import org.universityHierarchy.exceptions.SubjectNotAddedException;
 import org.universityHierarchy.service.ICourse;
 import org.universityHierarchy.service.ISubject;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class CourseImpl implements ISubject, ICourse {
 
+    private static String subjects[];
     private static final Logger LOGGER = LogManager.getLogger(CourseImpl.class);
+
 
     @Override
     public String[] addSubjectToCourse() {
         String[] subjects = new String[SUBJECTS_LENGTH];
         try (Scanner scanner = new Scanner(System.in)) {
-            for (int i = 0; i < subjects.length; i++) {
+            for (int i = 0; i < SUBJECTS_LENGTH; i++) {
                 LOGGER.info("Enter the subjects, please. " + (i + 1));
                 subjects[i] = scanner.nextLine();
             }
+            return subjects;
         } catch (RuntimeException e) {
-            LOGGER.debug(e);
-            throw new AddSubjectException("The subject could not be loaded");
-
+            throw new SubjectNotAddedException("The subject was not added correctly");
         }
-        return subjects;
+    }
+
+    @Override
+    public void printSubjects(String[] subjects) {
+        Arrays.sort(subjects);
+        for (int i = 0; i < SUBJECTS_LENGTH; i++) {
+            LOGGER.info("The subjects added are " + subjects[i]);
+        }
     }
 
     @Override
@@ -43,12 +54,6 @@ public class CourseImpl implements ISubject, ICourse {
         return workshop;
     }
 
-    @Override
-    public void printSubjects(String[] subjects) {
-        for (int i = 0; i < SUBJECTS_LENGTH; i++) {
-            LOGGER.info(subjects[i] + " | ");
-        }
-    }
 
     @Override
     public void printWorkshop(String[] workshop) {
@@ -59,10 +64,11 @@ public class CourseImpl implements ISubject, ICourse {
 
     @Override
     public String[] addStudentToCourse() {
-        String[] students = new String[4];
+        int studentAmount = 4;
+        String[] students = new String[studentAmount];
         try (Scanner scanner = new Scanner(System.in)) {
-            for (int i = 0; i < students.length; i++) {
-                LOGGER.info("Enter the students, please. " + (i + 1));
+            for (int i = 0; i < studentAmount; i++) {
+                LOGGER.info("Enter 4 students, please. " + (i + 1));
                 students[i] = scanner.nextLine();
             }
         } catch (RuntimeException e) {
@@ -75,8 +81,14 @@ public class CourseImpl implements ISubject, ICourse {
 
     @Override
     public void printStudents(String[] students) {
-        for (String student : students) {
-            LOGGER.info(student);
+        Arrays.sort(students);
+        //Here I create a collection of String
+        Collection<String> newStudents = new ArrayList<String>();
+        newStudents.addAll(Arrays.asList(students));
+
+        Iterator<String> i = newStudents.iterator();
+        while (i.hasNext()) {
+            LOGGER.info("This is one element of the collection of student: " + (i.next()));
         }
     }
 
@@ -90,7 +102,7 @@ public class CourseImpl implements ISubject, ICourse {
             }
         } catch (RuntimeException e) {
             LOGGER.debug(e);
-            throw new AddTeachersToCourseException("The student could not be loaded" + e);
+            throw new AddTeachersToCourseException("The Teachers could not be loaded" + e);
         }
         return teachers;
     }
