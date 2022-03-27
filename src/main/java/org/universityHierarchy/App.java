@@ -62,12 +62,14 @@ public class App {
             LOGGER.info("The total average qualification is : " + totalAverageQualification);
 
         } else if (category == 2) {
-            teacher.addTeacherInformation();
+          //  teacher.addTeacherInformation();
             ICourse course = new CourseImpl();
-            String[] subjects = course.addSubjectToCourse();
-            course.printSubjects(subjects);
-            String[] students = course.addStudentToCourse();
-            course.printStudents(students);
+//            String[] subjects = course.addSubjectToCourse();
+//            course.printSubjects(subjects);
+//            String[] students = course.addStudentToCourse();
+//            course.printStudents(students);
+            String[] workshops = course.createWorkshop();
+            course.printWorkshop(workshops);
             LOGGER.info("Now let's calculate your salary");
             IEmployee employee = new EmployeeImpl();
             double netIncome = employee.gettingIncome();

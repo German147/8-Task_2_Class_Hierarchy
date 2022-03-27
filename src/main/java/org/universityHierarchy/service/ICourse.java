@@ -2,7 +2,7 @@ package org.universityHierarchy.service;
 
 public interface ICourse {
 
-    int WORKSHOP_LENGTH = 5;
+    int WORKSHOP_LENGTH = 3;
 
     String[] createWorkshop();
 

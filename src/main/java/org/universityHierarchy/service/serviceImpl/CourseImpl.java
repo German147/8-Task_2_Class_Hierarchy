@@ -2,10 +2,10 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.exceptions.AddStudentToCourseException;
+import org.universityHierarchy.exceptions.StudentNotAddedToCourseException;
 import org.universityHierarchy.exceptions.AddTeachersToCourseException;
-import org.universityHierarchy.exceptions.CreateWorkShopException;
 import org.universityHierarchy.exceptions.SubjectNotAddedException;
+import org.universityHierarchy.exceptions.WorkShopNotCreatedException;
 import org.universityHierarchy.service.ICourse;
 import org.universityHierarchy.service.ISubject;
 
@@ -39,26 +39,32 @@ public class CourseImpl implements ISubject, ICourse {
         }
     }
 
+    // TODO: 26/3/2022  
     @Override
     public String[] createWorkshop() {
-        String[] workshop = new String[WORKSHOP_LENGTH];
+       int workshopAmount = 3;
+        String[] workshops = new String[workshopAmount];
         try (Scanner scanner = new Scanner(System.in)) {
-            for (int i = 0; i < WORKSHOP_LENGTH; i++) {
-                LOGGER.info("Enter the new workshop, please");
-                workshop[i] = scanner.nextLine();
+            for (int i = 0; i < workshopAmount; i++) {
+                LOGGER.info("Enter the new workshop, please" + (i+1));
+                workshops[i] = scanner.nextLine();
             }
         } catch (RuntimeException e) {
             LOGGER.error(e);
-            throw new CreateWorkShopException("The WorkShop could not be created");
+            throw new WorkShopNotCreatedException("The WorkShop could not be created");
         }
-        return workshop;
+        return workshops;
     }
 
-
     @Override
-    public void printWorkshop(String[] workshop) {
-        for (String s : workshop) {
-            LOGGER.info(s + " | ");
+    public void printWorkshop(String[] workshops) {
+        Arrays.sort(workshops);
+        //Here I create a collection of String
+        Collection<String> newWorkshops = new ArrayList<String>();
+        newWorkshops.addAll(Arrays.asList(createWorkshop()));
+        Iterator<String> i = newWorkshops.iterator();
+        while (i.hasNext()) {
+            LOGGER.info("This is an element of the collection of workshops " + (i.next()));
         }
     }
 
@@ -73,11 +79,10 @@ public class CourseImpl implements ISubject, ICourse {
             }
         } catch (RuntimeException e) {
             LOGGER.debug(e);
-            throw new AddStudentToCourseException("The student could not be loaded" + e);
+            throw new StudentNotAddedToCourseException("The student could not be loaded" + e);
         }
         return students;
     }
-
 
     @Override
     public void printStudents(String[] students) {
