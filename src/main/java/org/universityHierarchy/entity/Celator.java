@@ -1,10 +1,11 @@
 package org.universityHierarchy.entity;
 
-public class Celator {
+
+public class Celator<T,H> {
 
     private long celator_id;
-    private String dayTime;
-    private String courseInCharged;
+    private T dayTime;
+    private H courseInCharged;
 
     public Celator() {
     }
@@ -17,19 +18,19 @@ public class Celator {
         this.celator_id = celator_id;
     }
 
-    public String getDayTime() {
+    public T getDayTime() {
         return dayTime;
     }
 
-    public void setDayTime(String dayTime) {
+    public void setDayTime(T dayTime) {
         this.dayTime = dayTime;
     }
 
-    public String getCourseInCharged() {
+    public H getCourseInCharged() {
         return courseInCharged;
     }
 
-    public void setCourseInCharged(String courseInCharged) {
+    public void setCourseInCharged(H courseInCharged) {
         this.courseInCharged = courseInCharged;
     }
 }
