@@ -573,3 +573,24 @@ Calculate payment
 2022-03-26 14:51:57,044 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please3
 2022-03-26 14:51:58,800 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
 2022-03-26 14:51:58,803 ERROR o.u.s.s.CourseImpl [main] java.util.NoSuchElementException: No line found
+2022-03-27 00:35:26,507 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-27 00:35:26,527 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-27 00:35:31,876 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please2
+2022-03-27 00:35:34,644 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please3
+2022-03-27 00:35:40,756 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-27 00:35:40,757 ERROR o.u.s.s.CourseImpl [main] java.util.NoSuchElementException: No line found
+2022-03-28 13:29:50,299 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-28 13:29:50,306 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-28 13:30:21,159 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please2
+2022-03-28 13:30:23,464 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please3
+2022-03-28 13:30:26,867 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-28 13:30:26,868 ERROR o.u.s.s.CourseImpl [main] java.util.NoSuchElementException: No line found
+2022-03-28 13:30:52,796 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-28 13:32:05,265 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-28 13:32:30,726 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please2
