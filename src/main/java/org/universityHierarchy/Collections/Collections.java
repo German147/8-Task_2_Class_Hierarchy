@@ -1,4 +1,4 @@
-package org.universityHierarchy.Task2_QuickSortArray.Collections;
+package org.universityHierarchy.Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;

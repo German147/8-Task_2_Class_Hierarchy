@@ -1,8 +1,10 @@
-package org.universityHierarchy.Task2_QuickSortArray.Collections;
+package org.universityHierarchy.Collections;
 
 import java.util.*;
 
 public class PrintingContainers {
+
+
 
     //Esto no funciona hoy en dia, antes se colocaban de esta forma
 //    public static class PrintContainers {

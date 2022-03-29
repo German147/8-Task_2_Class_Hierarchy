@@ -1,4 +1,4 @@
-package org.universityHierarchy.Task2_QuickSortArray.Collections;
+package org.universityHierarchy.Collections;
 
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -22,7 +22,5 @@ public class TreeSetDemo {
 
         }
         System.out.println("\n");
-
-
     }
 }
