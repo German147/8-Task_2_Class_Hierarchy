@@ -10,11 +10,27 @@ public class Student extends People {
     public Student() {
     }
 
-    public Student(int student_id, double majorQualification, double lowQualification) {
-        this.student_id = student_id;
-        this.majorQualification = majorQualification;
-        this.lowQualification = lowQualification;
+    public int getStudent_id() {
+        return student_id;
     }
 
+    public void setStudent_id(int student_id) {
+        this.student_id = student_id;
+    }
 
+    public double getMajorQualification() {
+        return majorQualification;
+    }
+
+    public void setMajorQualification(double majorQualification) {
+        this.majorQualification = majorQualification;
+    }
+
+    public double getLowQualification() {
+        return lowQualification;
+    }
+
+    public void setLowQualification(double lowQualification) {
+        this.lowQualification = lowQualification;
+    }
 }
