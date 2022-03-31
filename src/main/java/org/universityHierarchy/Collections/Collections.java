@@ -29,8 +29,8 @@ public class Collections {
 
         System.out.println(nuevasNotas);
 
-        var i = nuevasNotas.iterator();
-        while (i.hasNext()) {
+//        var i = nuevasNotas.iterator();
+//        while (i.hasNext()) {
 
 //
 //        }
@@ -40,7 +40,7 @@ public class Collections {
 
         }
     }
-}
+
 
 
 //        Collection<Integer> c = new ArrayList<Integer>();

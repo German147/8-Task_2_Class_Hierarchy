@@ -594,3 +594,497 @@ Create exams
 Calculate payment
 2022-03-28 13:32:05,265 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
 2022-03-28 13:32:30,726 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please2
+2022-03-29 20:53:17,675 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 20:53:22,645 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 20:53:22,645 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 20:53:27,162 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 20:53:47,234 INFO o.u.s.s.TeacherImpl [main] [3, math, 34, 34]
+2022-03-29 20:53:47,235 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-29 22:54:51,943 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 22:54:55,261 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-29 22:54:55,261 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 22:54:58,372 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 22:54:58,377 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 22:55:24,956 INFO o.u.s.s.TeacherImpl [main] [maths, Spanish, PE]
+2022-03-29 22:55:24,957 INFO o.u.s.s.TeacherImpl [main] maths
+2022-03-29 22:55:24,957 INFO o.u.s.s.TeacherImpl [main] Spanish
+2022-03-29 22:55:24,957 INFO o.u.s.s.TeacherImpl [main] PE
+2022-03-29 22:55:24,957 INFO o.u.s.s.CourseImpl [main] Enter the new workshop, please1
+2022-03-29 22:55:24,958 ERROR o.u.s.s.CourseImpl [main] java.util.NoSuchElementException: No line found
+2022-03-29 23:03:36,621 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:03:39,516 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-29 23:03:39,516 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:03:42,884 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:03:42,889 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:03:58,221 INFO o.u.s.s.TeacherImpl [main] [maths, PE, English, Spanish]
+2022-03-29 23:03:58,221 INFO o.u.s.s.TeacherImpl [main] maths
+2022-03-29 23:03:58,221 INFO o.u.s.s.TeacherImpl [main] PE
+2022-03-29 23:03:58,221 INFO o.u.s.s.TeacherImpl [main] English
+2022-03-29 23:03:58,221 INFO o.u.s.s.TeacherImpl [main] Spanish
+2022-03-29 23:17:53,181 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:17:56,485 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:17:56,485 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:17:58,228 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:17:58,232 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:18:01,465 INFO o.u.s.s.TeacherImpl [main] Now, enter the Planning Lessons
+2022-03-29 23:22:20,173 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:22:23,220 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:22:23,221 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:22:28,036 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:22:28,160 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:22:49,566 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-29 23:23:30,647 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:23:33,756 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:23:33,756 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:23:35,765 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:23:35,840 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:23:51,094 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-29 23:24:54,004 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:24:57,677 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:24:57,677 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:24:59,749 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:24:59,754 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:25:01,868 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-29 23:30:16,134 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:30:25,524 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:30:25,524 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:30:27,395 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:30:27,400 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:30:30,900 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning1
+2022-03-29 23:32:46,056 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:32:49,436 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:32:49,436 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:32:52,147 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:33:02,581 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:34:40,454 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning1
+2022-03-29 23:44:19,080 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:44:22,532 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:44:22,532 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:44:24,076 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:44:24,080 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:45:01,635 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:52:10,306 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:52:18,412 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:52:18,412 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:52:20,188 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:52:20,192 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:52:22,380 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-29 23:53:25,486 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:53:28,124 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:53:28,124 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:53:30,348 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:53:30,353 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:53:32,363 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-29 23:55:08,271 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-29 23:55:18,435 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-29 23:55:18,436 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-29 23:55:20,131 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-29 23:55:20,136 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-29 23:55:22,040 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 00:02:58,230 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 00:03:01,492 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 00:03:01,492 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 00:03:03,317 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 00:03:03,322 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 00:03:06,467 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 00:03:18,666 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 00:03:21,835 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 00:03:21,836 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 00:03:24,291 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 00:03:24,299 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 00:03:34,846 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 00:04:05,850 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 00:04:11,371 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University grt
+2022-03-30 00:04:11,371 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 00:04:12,947 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 00:04:12,955 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 00:04:25,383 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 00:06:30,279 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 00:06:33,307 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 00:06:33,307 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 00:06:36,308 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 00:06:36,312 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 00:06:38,171 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 00:07:11,443 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 00:07:13,996 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 00:07:13,996 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 00:07:14,884 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 00:07:14,891 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 00:07:16,208 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 06:57:41,500 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 06:57:43,984 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 06:57:43,985 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 06:57:46,574 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 06:57:46,608 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 06:58:29,372 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 06:58:33,431 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-30 06:58:33,432 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 06:58:35,136 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 06:58:35,141 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:03:23,951 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:03:27,535 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University gfer
+2022-03-30 07:03:27,535 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:03:31,711 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:03:31,716 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:03:57,328 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:04:00,303 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:04:00,303 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:04:02,014 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:04:02,039 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:05:48,982 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:05:51,271 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:05:51,272 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:05:54,058 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:05:54,066 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:11:25,631 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:11:30,015 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:11:30,015 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:11:32,694 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:11:32,699 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:13:36,324 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:13:39,886 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:13:39,887 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:13:42,164 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:13:42,168 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:17:24,970 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:17:29,289 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-30 07:17:29,289 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:17:31,254 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:17:31,259 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:17:33,095 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 07:18:26,537 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:18:29,496 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:18:29,496 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:18:32,129 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:18:32,134 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:18:34,614 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 07:20:53,504 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:20:55,910 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:20:55,910 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:20:57,599 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:20:57,603 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:33:54,235 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:33:57,038 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:33:57,038 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:33:58,494 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:33:58,499 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:33:59,454 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 07:38:16,386 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:38:19,662 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:38:19,663 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:38:22,114 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:38:22,119 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:38:23,353 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 07:48:51,631 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:48:55,918 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:48:55,918 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:48:57,310 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:48:57,315 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:48:58,467 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 07:51:33,619 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 07:51:35,917 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 07:51:35,917 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 07:51:37,702 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 07:51:37,706 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 07:51:39,061 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 08:10:55,971 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 08:10:58,477 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 08:10:58,478 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 08:11:00,256 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 08:11:00,264 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 08:11:02,173 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 08:11:46,186 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 08:11:48,317 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University fe
+2022-03-30 08:11:48,317 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 08:11:49,694 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 08:11:49,702 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 08:11:50,941 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 08:13:11,277 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 08:13:14,022 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 08:13:14,022 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 08:13:15,325 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 08:13:15,333 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 08:13:16,549 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 08:15:08,895 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 08:21:26,807 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 08:21:29,485 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 08:21:29,485 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 08:21:30,917 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 08:21:30,925 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 08:21:36,553 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 08:22:12,143 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 08:22:14,445 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 08:22:14,445 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 08:22:15,909 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 08:22:15,917 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 08:22:20,601 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 13:41:19,870 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 13:41:26,221 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 13:41:26,221 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 13:41:29,564 INFO o.u.e.UserInteractionClass [main] Or a Staff Employee you can See your Information 
+Calculate pay 
+
+2022-03-30 13:42:05,750 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 13:42:10,573 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ge
+2022-03-30 13:42:10,573 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 13:42:12,070 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 13:42:12,075 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 13:42:14,391 INFO o.u.s.s.TeacherImpl [main] Now, please enter the Lessons Planning
+2022-03-30 13:48:01,786 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:43:32,262 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:43:35,194 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 18:43:35,195 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:43:37,789 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:43:37,794 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:44:01,265 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:44:05,699 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 18:44:05,699 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:44:08,019 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:44:08,023 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:45:38,022 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:45:41,186 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University gert
+2022-03-30 18:45:41,186 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:45:43,362 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:45:43,367 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:46:39,217 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:46:41,458 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 18:46:41,458 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:46:42,395 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:48:44,338 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:48:47,498 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-30 18:48:47,498 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:48:50,427 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:48:50,433 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:53:38,922 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:53:43,155 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 18:53:43,155 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:53:44,738 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:53:44,743 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:54:22,581 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:54:25,177 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 18:54:25,178 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:54:28,671 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:54:28,675 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:55:30,504 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:55:35,106 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Grer
+2022-03-30 18:55:35,107 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:55:36,953 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 18:55:36,959 INFO o.u.s.s.TeacherImpl [main] Enter the number of planning lessons you will create : 
+2022-03-30 18:56:20,000 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 18:56:23,100 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 18:56:23,100 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 18:56:24,754 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 19:02:14,907 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 19:02:17,682 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-30 19:02:17,683 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 19:02:18,914 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 19:04:59,256 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 19:05:02,138 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 19:05:02,138 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 19:05:03,898 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 19:05:10,826 INFO o.u.s.s.TeacherImpl [main] ger
+2022-03-30 19:05:10,826 INFO o.u.s.s.TeacherImpl [main] mar
+2022-03-30 19:05:10,826 INFO o.u.s.s.TeacherImpl [main] lean
+2022-03-30 19:10:34,955 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 19:10:37,282 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 19:10:37,282 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 19:10:38,268 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 19:10:38,273 INFO o.u.s.s.TeacherImpl [main] Enter 4 classes, please. 1
+2022-03-30 19:10:52,793 INFO o.u.s.s.TeacherImpl [main] Enter 4 classes, please. 2
+2022-03-30 19:10:56,226 INFO o.u.s.s.TeacherImpl [main] Enter 4 classes, please. 3
+2022-03-30 19:10:57,377 INFO o.u.s.s.TeacherImpl [main] Enter 4 classes, please. 4
+2022-03-30 19:44:17,467 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 19:44:20,146 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 19:44:20,146 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 19:44:21,451 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 19:44:21,455 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 1
+2022-03-30 19:44:30,689 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 2
+2022-03-30 19:44:33,689 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 3
+2022-03-30 20:13:38,869 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 20:13:42,939 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 20:13:42,939 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 20:13:44,675 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 20:13:44,680 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 1
+2022-03-30 20:13:47,818 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 2
+2022-03-30 20:13:54,467 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 3
+2022-03-30 20:13:57,603 INFO o.u.s.s.TeacherImpl [main] [231]
+2022-03-30 20:17:45,601 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 20:17:48,941 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-30 20:17:48,941 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 20:17:50,939 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 20:17:50,944 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 1
+2022-03-30 20:17:58,051 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 2
+2022-03-30 20:18:03,283 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 3
+2022-03-30 20:18:07,715 INFO o.u.s.s.TeacherImpl [main] [Spanish 2]
+2022-03-30 20:18:07,715 INFO o.u.s.s.TeacherImpl [main] Spanish 2
+2022-03-30 20:19:55,907 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 20:20:01,170 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-03-30 20:20:01,170 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 20:20:02,859 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 20:20:02,864 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 1
+2022-03-30 20:20:10,938 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 2
+2022-03-30 20:20:13,074 INFO o.u.s.s.TeacherImpl [main] Enter 3 exams, please. 3
+2022-03-30 20:20:15,922 INFO o.u.s.s.TeacherImpl [main] 1
+2022-03-30 20:20:15,923 INFO o.u.s.s.TeacherImpl [main] Engl
+2022-03-30 20:28:54,660 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 20:28:59,783 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 20:28:59,784 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 20:29:01,035 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 20:29:45,706 INFO o.u.s.s.TeacherImpl [main] 3
+2022-03-30 20:29:45,707 INFO o.u.s.s.TeacherImpl [main] maths
+2022-03-30 20:29:45,707 INFO o.u.s.s.TeacherImpl [main] englis
+2022-03-30 20:29:45,707 INFO o.u.s.s.TeacherImpl [main] history
+2022-03-30 20:30:48,160 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 20:30:50,043 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 20:30:50,043 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 20:30:51,450 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 20:30:51,455 INFO o.u.s.s.TeacherImpl [main] Enter three exams, please: 
+2022-03-30 20:30:55,618 INFO o.u.s.s.TeacherImpl [main] Enter three exams, please: 
+2022-03-30 20:30:56,457 INFO o.u.s.s.TeacherImpl [main] Enter three exams, please: 
+2022-03-30 20:30:57,714 INFO o.u.s.s.TeacherImpl [main] 3
+2022-03-30 20:30:57,714 INFO o.u.s.s.TeacherImpl [main] asd
+2022-03-30 20:30:57,714 INFO o.u.s.s.TeacherImpl [main] er
+2022-03-30 20:30:57,714 INFO o.u.s.s.TeacherImpl [main] jhgh
+2022-03-30 21:47:00,913 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 21:47:04,274 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 21:47:04,274 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 21:47:05,641 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 21:47:05,649 INFO o.u.s.s.CourseImpl [main] Enter the number of subjects and then the subject itself : 
+2022-03-30 21:47:16,480 INFO o.u.s.s.TeacherImpl [main] Enter three exams, please: 
+2022-03-30 21:47:16,481 DEBUG o.u.s.s.TeacherImpl [main] java.util.NoSuchElementException: No line found
+2022-03-30 21:51:39,124 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 21:51:41,481 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 21:51:41,481 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 21:51:43,072 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 21:51:43,076 INFO o.u.s.s.CourseImpl [main] Enter the number of subjects and then the subject itself : 
+2022-03-30 21:51:55,192 INFO o.u.s.s.CourseImpl [main] Maths
+2022-03-30 21:51:55,193 INFO o.u.s.s.CourseImpl [main] Englis
+2022-03-30 21:51:55,193 INFO o.u.s.s.CourseImpl [main] Biology
+2022-03-30 22:50:46,871 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-03-30 22:50:49,353 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University ger
+2022-03-30 22:50:49,353 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-03-30 22:50:52,383 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-03-30 22:50:52,388 INFO o.u.s.s.CelatorImpl [main] Enter the number of students: 
+2022-03-30 22:50:56,536 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-03-30 22:51:01,111 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
+2022-03-30 22:51:03,040 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-03-30 22:51:04,775 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
+2022-03-30 22:51:06,168 INFO o.u.s.s.CelatorImpl [main] {luis=4, ger=8}

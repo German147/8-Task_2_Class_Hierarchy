@@ -1,7 +1,6 @@
 package org.universityHierarchy.entity;
 
 
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,7 +10,7 @@ public class UserInteractionClass extends People {
 
     private static final Logger LOGGER = LogManager.getLogger(UserInteractionClass.class);
 
-    private  String userName;
+    private String userName;
     private int userCategory;
 
     public UserInteractionClass() {
@@ -21,7 +20,7 @@ public class UserInteractionClass extends People {
         return userName;
     }
 
-    public  void setUserName(String userName) {
+    public void setUserName(String userName) {
         this.userName = userName;
     }
 
@@ -34,7 +33,7 @@ public class UserInteractionClass extends People {
     }
 
     public String greeting() {
-        System.out.println("Please, enter your name to start navigating through our University");
+        LOGGER.info("Please, enter your name to start navigating through our University");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         return name;
@@ -42,11 +41,11 @@ public class UserInteractionClass extends People {
     }
 
     public void welcomeUser(String name) {
-        System.out.println("Hi, welcome to our University " + name);
+        LOGGER.info("Hi, welcome to our University " + name);
     }
 
     public int chooseCategoryUser() {
-        System.out.println("Now,if you want to enter as a Student hit 1," +
+        LOGGER.info("Now,if you want to enter as a Student hit 1," +
                 "as a Teacher hit 2, or as an Employee hit 3");
         Scanner scanner = new Scanner(System.in);
         int category = scanner.nextInt();

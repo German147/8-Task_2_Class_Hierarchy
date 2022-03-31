@@ -9,7 +9,7 @@ import org.universityHierarchy.service.IStudent;
 
 import java.util.Scanner;
 
-@SuppressWarnings("SpellCheckingInspection")
+
 public class StudentImpl extends People implements IStudent {
 
     private static final Logger LOGGER = LogManager.getLogger(StudentImpl.class);
@@ -101,11 +101,11 @@ public class StudentImpl extends People implements IStudent {
     }
 
     @Override
-    public double calculateSumOfQualifications(int[] exmasNotes) {
+    public double calculateSumOfQualifications(int[] examsNotes) {
         //definimos e iniciamos la variable acumulador
         int sumOfQualifications = 0;
         //iteramos con un for hence loop
-        for (int qualification : exmasNotes) {
+        for (int qualification : examsNotes) {
             sumOfQualifications = sumOfQualifications + qualification;
         }
         return sumOfQualifications;

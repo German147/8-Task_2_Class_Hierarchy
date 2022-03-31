@@ -2,10 +2,7 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.exceptions.StudentNotAddedToCourseException;
-import org.universityHierarchy.exceptions.AddTeachersToCourseException;
-import org.universityHierarchy.exceptions.SubjectNotAddedException;
-import org.universityHierarchy.exceptions.WorkShopNotCreatedException;
+import org.universityHierarchy.exceptions.*;
 import org.universityHierarchy.service.ICourse;
 import org.universityHierarchy.service.ISubject;
 
@@ -16,6 +13,29 @@ public class CourseImpl implements ISubject, ICourse {
     private static String subjects[];
     private static final Logger LOGGER = LogManager.getLogger(CourseImpl.class);
 
+    @Override
+    public Set<String> createSubjects(){
+        Set<String> subjects = new HashSet<>();
+        try (Scanner scanner = new Scanner(System.in)) {
+            LOGGER.info("Enter the number of subjects and then the subject itself : ");
+            int nbr = scanner.nextInt();//read the number of element
+            scanner.nextLine();
+            do {
+                subjects.add(scanner.nextLine());//read and insert into your list in one shot
+                nbr--;//decrement the index
+            } while (nbr > 0);//repeat until the index will be 0
+        } catch (RuntimeException e) {
+            throw new SubjectsNotCreatedEsception("The subjects were not created");
+        }
+        return subjects;
+    }
+    @Override
+    public void printSubjects(Set<String> subjects){
+        Iterator<String> it = subjects.iterator();
+        while (it.hasNext()){
+            LOGGER.info(it.next());
+        }
+    }
 
     @Override
     public String[] addSubjectToCourse() {

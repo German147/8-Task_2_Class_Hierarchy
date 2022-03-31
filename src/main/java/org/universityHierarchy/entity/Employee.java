@@ -1,6 +1,8 @@
 package org.universityHierarchy.entity;
 
 
+import java.util.Objects;
+
 public class Employee extends People{
 
 
@@ -17,4 +19,16 @@ public class Employee extends People{
         this.employee_Id = employee_Id;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getEmployee_Id() == employee.getEmployee_Id();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getEmployee_Id());
+    }
 }

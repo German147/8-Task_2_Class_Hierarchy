@@ -1,18 +1,19 @@
 package org.universityHierarchy.service;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public interface ITeacher {
 
     int gettingPositionTeacher();
 
-    void createClasses();
+    String[] createClasses();
 
-    void createExams();
+    List createExams();
 
-    void takeAssistance();
+    void printExams(List examsLists);
 
-    void createYearlyPlanningTopics();
+    LinkedList<String> createYearlyPlanningTopics();
 
-    void addSubject();
-
-
+    void printPlanningTopics(LinkedList<String> planningLessons);
 }

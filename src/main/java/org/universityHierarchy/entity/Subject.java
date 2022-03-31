@@ -7,10 +7,6 @@ public class Subject extends Course {
     public Subject() {
     }
 
-    public Subject(String subjectName) {
-        this.subjectName = subjectName;
-    }
-
     public String getSubjectName() {
         return subjectName;
     }

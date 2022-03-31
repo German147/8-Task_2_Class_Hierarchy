@@ -9,18 +9,20 @@ import org.universityHierarchy.entity.UserInteractionClass;
 import org.universityHierarchy.service.ICourse;
 import org.universityHierarchy.service.IEmployee;
 import org.universityHierarchy.service.INoticeBoard;
-import org.universityHierarchy.service.serviceImpl.CourseImpl;
-import org.universityHierarchy.service.serviceImpl.EmployeeImpl;
-import org.universityHierarchy.service.serviceImpl.NoticeBoardImpl;
-import org.universityHierarchy.service.serviceImpl.StudentImpl;
+import org.universityHierarchy.service.serviceImpl.*;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
 
 
 public class App {
 
     private static final Logger LOGGER = LogManager.getLogger(App.class);
     private static final String universityName = "Cordoba University";
-    private static final String universityLocation = "SouthAmercia";
-    // TODO: 23/3/2022 teacher's methods
+    private static final String universityLocation = "South America";
+
     // TODO: 24/3/2022 analyze clean
 
     public static void main(String[] args) {
@@ -37,12 +39,15 @@ public class App {
         StudentImpl student = new StudentImpl();
         Teacher teacher = new Teacher();
         StaffEmployee staffEmployee = new StaffEmployee();
-        initializingEntities(student, teacher, staffEmployee, category);
+        CourseImpl course = new CourseImpl();
+        CelatorImpl celator = new CelatorImpl();
+        initializingEntities(student, teacher, staffEmployee, category, course,celator);
 
     }
 
     private static void initializingEntities(StudentImpl student, Teacher teacher,
-                                             StaffEmployee staffEmployee, int category) {
+                                             StaffEmployee staffEmployee, int category,
+                                             CourseImpl course,CelatorImpl celator) {
         if (category == 1) {
             LOGGER.info("Let's see some news on the NoticeBoard");
             INoticeBoard notice = new NoticeBoardImpl();
@@ -62,21 +67,31 @@ public class App {
             LOGGER.info("The total average qualification is : " + totalAverageQualification);
 
         } else if (category == 2) {
-            //  teacher.addTeacherInformation();
-            ICourse course = new CourseImpl();
+
+            celator.studentsQualifications();
+//        Set<String> subjects = course.createSubjects();
+//        course.printSubjects(subjects);
+
           //  String[] subjects = course.addSubjectToCourse();
           //  course.printSubjects(subjects);
-          //  String[] students = course.addStudentToCourse();
-          //  course.printStudents(students);
-            String[] workshops = course.createWorkshop();
-            course.printWorkshop(workshops);
-            LOGGER.info("Now let's calculate your salary");
-            IEmployee employee = new EmployeeImpl();
-            double netIncome = employee.gettingIncome();
-            int workingYears = employee.gettingYearsOfWork();
-            double percentage = employee.gettingPercentage(workingYears);
-            double totalSalary = employee.calculateNetIncomeByWorkingYears(netIncome, percentage);
-            System.out.println("Your total salary is " + totalSalary);
+            //  String[] students = course.addStudentToCourse();
+            //  course.printStudents(students);
+//            TeacherImpl teacher1 = new TeacherImpl();
+//            teacher1.addTeacherInformation();
+//            LinkedList<String> planningTopics = teacher1.createYearlyPlanningTopics();
+//            teacher1.printPlanningTopics(planningTopics);
+            // teacher1.createClasses();
+//            List examsLists = teacher1.createExams();
+//            teacher1.printExams(examsLists);
+//            String[] workshops = course.createWorkshop();
+//            course.printWorkshop(workshops);
+//            LOGGER.info("Now let's calculate your salary");
+//            IEmployee employee = new EmployeeImpl();
+//            double netIncome = employee.gettingIncome();
+//            int workingYears = employee.gettingYearsOfWork();
+//            double percentage = employee.gettingPercentage(workingYears);
+//            double totalSalary = employee.calculateNetIncomeByWorkingYears(netIncome, percentage);
+//            System.out.println("Your total salary is " + totalSalary);
 
         } else if (category == 3) {
             EmployeeImpl employee = new EmployeeImpl();
