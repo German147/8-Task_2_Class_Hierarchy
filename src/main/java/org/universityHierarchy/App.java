@@ -41,13 +41,13 @@ public class App {
         StaffEmployee staffEmployee = new StaffEmployee();
         CourseImpl course = new CourseImpl();
         CelatorImpl celator = new CelatorImpl();
-        initializingEntities(student, teacher, staffEmployee, category, course,celator);
+        initializingEntities(student, teacher, staffEmployee, category, course, celator);
 
     }
 
     private static void initializingEntities(StudentImpl student, Teacher teacher,
                                              StaffEmployee staffEmployee, int category,
-                                             CourseImpl course,CelatorImpl celator) {
+                                             CourseImpl course, CelatorImpl celator) {
         if (category == 1) {
             LOGGER.info("Let's see some news on the NoticeBoard");
             INoticeBoard notice = new NoticeBoardImpl();
@@ -68,12 +68,12 @@ public class App {
 
         } else if (category == 2) {
 
-            celator.studentsQualifications();
-//        Set<String> subjects = course.createSubjects();
-//        course.printSubjects(subjects);
+            //   celator.studentsQualifications();
+            Set<String> subjects = course.createSubjects();
+            course.printSubjects(subjects);
 
-          //  String[] subjects = course.addSubjectToCourse();
-          //  course.printSubjects(subjects);
+            //  String[] subjects = course.addSubjectToCourse();
+            //  course.printSubjects(subjects);
             //  String[] students = course.addStudentToCourse();
             //  course.printStudents(students);
 //            TeacherImpl teacher1 = new TeacherImpl();

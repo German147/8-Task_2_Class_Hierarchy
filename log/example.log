@@ -1088,3 +1088,29 @@ Calculate payment
 2022-03-30 22:51:03,040 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
 2022-03-30 22:51:04,775 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
 2022-03-30 22:51:06,168 INFO o.u.s.s.CelatorImpl [main] {luis=4, ger=8}
+2022-03-31 16:13:39,089 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-04-02 15:19:08,854 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-04-02 15:19:14,159 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University german
+2022-04-02 15:19:14,159 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-04-02 15:19:17,579 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-04-02 15:19:17,583 INFO o.u.s.s.CelatorImpl [main] Enter the number of students: 
+2022-04-02 15:19:21,256 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-04-02 15:19:24,985 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
+2022-04-02 15:19:27,464 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-04-02 15:19:31,326 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
+2022-04-02 15:19:32,576 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-04-02 15:19:35,576 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
+2022-04-02 15:19:37,321 INFO o.u.s.s.CelatorImpl [main] {leamn=4, evange=10, marti=7}
+2022-04-02 15:20:45,206 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
+2022-04-02 15:20:48,409 INFO o.u.e.UserInteractionClass [main] Hi, welcome to our University Ger
+2022-04-02 15:20:48,410 INFO o.u.e.UserInteractionClass [main] Now,if you want to enter as a Student hit 1,as a Teacher hit 2, or as an Employee hit 3
+2022-04-02 15:20:49,937 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
+Create exams 
+Calculate payment
+2022-04-02 15:20:49,941 INFO o.u.s.s.CourseImpl [main] Enter the number of subjects and then the subject itself : 
+2022-04-02 15:21:03,892 INFO o.u.s.s.CourseImpl [main] Maths
+2022-04-02 15:21:03,892 INFO o.u.s.s.CourseImpl [main] Biology
+2022-04-02 17:42:26,007 DEBUG o.u.AppTest [main] Hola changos
+2022-04-02 17:57:23,276 DEBUG o.u.AppTest [main] Hola changos

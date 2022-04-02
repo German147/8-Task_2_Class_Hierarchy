@@ -12,6 +12,7 @@ public class CourseImpl implements ISubject, ICourse {
 
     private static String subjects[];
     private static final Logger LOGGER = LogManager.getLogger(CourseImpl.class);
+    public Scanner scanner = new Scanner(System.in);
 
     @Override
     public Set<String> createSubjects(){
