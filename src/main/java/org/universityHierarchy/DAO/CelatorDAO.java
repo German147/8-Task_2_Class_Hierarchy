@@ -1,7 +1,7 @@
 package org.universityHierarchy.DAO;
 
 import org.universityHierarchy.entity.Celator;
-import org.universityHierarchy.service.IEntity_DAO;
+import service.IEntity_DAO;
 
 public class CelatorDAO implements IEntity_DAO<Celator>{
     @Override

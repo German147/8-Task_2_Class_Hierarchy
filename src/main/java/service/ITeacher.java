@@ -1,4 +1,4 @@
-package org.universityHierarchy.service;
+package service;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
 import org.universityHierarchy.entity.People;
 

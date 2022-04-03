@@ -1,6 +1,6 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
-import org.universityHierarchy.service.INoticeBoard;
+import service.INoticeBoard;
 
 public abstract class NoticeBoardInformation implements INoticeBoard {
 

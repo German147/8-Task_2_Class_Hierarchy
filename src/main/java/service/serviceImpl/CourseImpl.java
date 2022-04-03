@@ -1,10 +1,10 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
+import service.ICourse;
+import service.ISubject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.exceptions.*;
-import org.universityHierarchy.service.ICourse;
-import org.universityHierarchy.service.ISubject;
 
 import java.util.*;
 

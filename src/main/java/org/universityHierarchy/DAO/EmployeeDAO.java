@@ -1,7 +1,7 @@
 package org.universityHierarchy.DAO;
 
 import org.universityHierarchy.entity.Employee;
-import org.universityHierarchy.service.IEntity_DAO;
+import service.IEntity_DAO;
 
 public class EmployeeDAO implements IEntity_DAO<Employee> {
 

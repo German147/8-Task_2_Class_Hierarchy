@@ -1,4 +1,4 @@
-package org.universityHierarchy.service;
+package service;
 
 public interface IEmployee {
 

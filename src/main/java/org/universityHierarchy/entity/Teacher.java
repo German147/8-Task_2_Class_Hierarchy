@@ -3,8 +3,6 @@ package org.universityHierarchy.entity;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.exceptions.StudentNotSetInformation;
-import org.universityHierarchy.service.serviceImpl.TeacherInformation;
 
 import java.util.Arrays;
 import java.util.Objects;

@@ -2,16 +2,12 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.junit.jupiter.api.Assertions;
 
-import java.io.InputStream;
-import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.Set;
 
 
 class CourseImplTest {
-
 
     @org.junit.jupiter.api.Test
     void createSubjects() {
@@ -20,22 +16,27 @@ class CourseImplTest {
         String subject1 = "Maths";
         String subject2 = "PE";
         String subject3 = "History";
-
         //when
         subjects.add(subject1);
         subjects.add(subject2);
         subjects.add(subject3);
-
         Set<String> result = subjects;
         //then
         Set<String> expected = new HashSet<>(Arrays.asList("Maths", "PE", "History"));
-
         Assertions.assertEquals(result, expected);
-
     }
 
     @org.junit.jupiter.api.Test
     void printSubjects() {
+        //given
+        Set<String> subjects = new HashSet<>();
+        subjects.add("Maths");
+        subjects.add("Spanish");
+        subjects.add("English");
+        //when
+
+        //then
+
     }
 
     @org.junit.jupiter.api.Test

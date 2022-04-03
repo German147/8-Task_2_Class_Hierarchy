@@ -1,7 +1,6 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
 import org.universityHierarchy.entity.People;
-import org.universityHierarchy.service.ITeacher;
 
 public abstract class TeacherInformation extends People {
 

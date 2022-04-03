@@ -1,8 +1,8 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
+import service.INoticeBoard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.service.INoticeBoard;
 
 public class NoticeBoardImpl implements INoticeBoard {
 

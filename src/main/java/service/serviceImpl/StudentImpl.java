@@ -1,11 +1,11 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.entity.People;
 import org.universityHierarchy.exceptions.HighestQualificationNotFound;
 import org.universityHierarchy.exceptions.QualificationExamsNotFound;
-import org.universityHierarchy.service.IStudent;
+import service.IStudent;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class StudentImpl extends People implements IStudent {
 
     private static final Logger LOGGER = LogManager.getLogger(StudentImpl.class);
     private static final Scanner scanner = new Scanner(System.in);
-    private static int qualifications[];
+    private static int[] qualifications;
 
     @Override
     public void addStudentInformation() {
@@ -40,7 +40,6 @@ public class StudentImpl extends People implements IStudent {
         student1.setCountryName(country);
         LOGGER.info("All Student information was set");
     }
-
 
     @Override
     public int setExamsQuantity() {

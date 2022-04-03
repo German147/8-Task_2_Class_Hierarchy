@@ -6,14 +6,9 @@ import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.entity.StaffEmployee;
 import org.universityHierarchy.entity.Teacher;
 import org.universityHierarchy.entity.UserInteractionClass;
-import org.universityHierarchy.service.ICourse;
-import org.universityHierarchy.service.IEmployee;
-import org.universityHierarchy.service.INoticeBoard;
-import org.universityHierarchy.service.serviceImpl.*;
+import service.INoticeBoard;
+import service.serviceImpl.*;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Set;
 
 

@@ -1,10 +1,10 @@
-package org.universityHierarchy.service.serviceImpl;
+package service.serviceImpl;
 
+import service.IEmployee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.entity.Employee;
 import org.universityHierarchy.exceptions.PercentageNotFoundException;
-import org.universityHierarchy.service.IEmployee;
 
 import java.util.Scanner;
 
