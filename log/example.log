@@ -4,12 +4,12 @@
 Create exams 
 Calculate payment
 2022-03-23 17:09:24,361 INFO o.u.e.Teacher [main] Enter the following teacher's data: 
-2022-03-23 17:09:24,361 INFO o.u.e.Teacher [main] Enter the following student's data: 
+2022-03-23 17:09:24,361 INFO o.u.e.Teacher [main] Enter the following EStudent's data:
 2022-03-23 17:09:24,362 INFO o.u.e.Teacher [main] Enter your name
 2022-03-23 17:09:30,241 INFO o.u.e.Teacher [main] Enter your surname
 2022-03-24 08:56:52,656 DEBUG o.u.App [main] Hola chicos
 2022-03-24 10:06:06,943 DEBUG o.u.App [main] Hola chicos
-2022-03-24 10:06:16,272 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 10:06:16,272 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -19,9 +19,9 @@ Set your Information
 2022-03-24 10:06:16,280 INFO o.u.s.s.NoticeBoardImpl [main] The date of the following exams are from April 23, to June 15
 2022-03-24 10:06:16,280 INFO o.u.s.s.NoticeBoardImpl [main] The result qualification will be abailable soon
 2022-03-24 10:06:16,280 INFO o.u.s.s.NoticeBoardImpl [main] The date of the following exams are from April 23, to June 15
-2022-03-24 10:06:16,281 INFO o.u.e.Student [main] Enter the following student's data: 
+2022-03-24 10:06:16,281 INFO o.u.e.Student [main] Enter the following EStudent's data:
 2022-03-24 10:06:16,281 INFO o.u.e.Student [main] Enter your name
-2022-03-24 14:23:22,366 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 14:23:22,366 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -32,7 +32,7 @@ Set your Information
 2022-03-24 14:23:22,461 INFO o.u.s.s.NoticeBoardImpl [main] The date of the following exams are from April 23, to June 15
 2022-03-24 14:23:22,461 INFO o.u.s.s.NoticeBoardImpl [main] The result qualification will be abailable soon
 2022-03-24 14:23:22,461 INFO o.u.s.s.NoticeBoardImpl [main] The date of the following exams are from April 23, to June 15
-2022-03-24 14:23:22,462 INFO o.u.s.s.StudentImpl [main] Enter the following student's data: 
+2022-03-24 14:23:22,462 INFO o.u.s.s.StudentImpl [main] Enter the following EStudent's data:
 2022-03-24 14:23:22,462 INFO o.u.s.s.StudentImpl [main] Enter your name
 2022-03-24 14:24:04,344 INFO o.u.s.s.StudentImpl [main] Enter your surname
 2022-03-24 14:24:07,723 INFO o.u.s.s.StudentImpl [main] Enter your phone number
@@ -53,7 +53,7 @@ Set your Information
 2022-03-24 14:24:38,641 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 10
 2022-03-24 14:24:38,641 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 11
 2022-03-24 14:24:38,642 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 12
-2022-03-24 15:48:00,684 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 15:48:00,684 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -70,7 +70,7 @@ Set your Information
 2022-03-24 15:48:06,715 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 3
 2022-03-24 15:48:06,715 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 4
 2022-03-24 15:48:06,715 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 5
-2022-03-24 15:50:29,814 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 15:50:29,814 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -87,7 +87,7 @@ Set your Information
 2022-03-24 15:50:33,227 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 3
 2022-03-24 15:50:33,227 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 4
 2022-03-24 15:50:33,227 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 5
-2022-03-24 15:54:25,144 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 15:54:25,144 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -104,7 +104,7 @@ Set your Information
 2022-03-24 15:54:27,727 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 3
 2022-03-24 15:54:27,727 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 4
 2022-03-24 15:54:27,727 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 5
-2022-03-24 15:56:26,968 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 15:56:26,968 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -121,7 +121,7 @@ Set your Information
 2022-03-24 15:56:30,586 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 3
 2022-03-24 15:56:30,586 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 4
 2022-03-24 15:56:30,586 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 5
-2022-03-24 16:09:41,586 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 16:09:41,586 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -135,7 +135,7 @@ Set your Information
 2022-03-24 16:09:41,601 INFO o.u.s.s.StudentImpl [main] Enter the amount of exams taken: 
 2022-03-24 16:09:43,576 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 1
 2022-03-24 16:09:43,576 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 2
-2022-03-24 16:13:40,421 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 16:13:40,421 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -154,7 +154,7 @@ Set your Information
 2022-03-24 16:13:52,303 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 16:13:52,304 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 16:13:52,304 INFO o.u.App [main] The total average qualification is : 0
-2022-03-24 16:15:45,217 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 16:15:45,217 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -170,7 +170,7 @@ Set your Information
 2022-03-24 16:15:46,936 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 2
 2022-03-24 16:15:46,936 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 3
 2022-03-24 16:15:46,936 INFO o.u.s.s.StudentImpl [main] Enter the qualifications exams: 4
-2022-03-24 20:52:52,562 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 20:52:52,562 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -190,7 +190,7 @@ Set your Information
 2022-03-24 20:53:38,199 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 20:53:38,200 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 20:53:38,200 INFO o.u.App [main] The total average qualification is : 0
-2022-03-24 20:57:37,655 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 20:57:37,655 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -208,7 +208,7 @@ Set your Information
 2022-03-24 20:57:46,683 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 20:57:46,683 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 20:57:46,683 INFO o.u.App [main] The total average qualification is : 0
-2022-03-24 21:14:32,382 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 21:14:32,382 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -226,7 +226,7 @@ Set your Information
 2022-03-24 21:14:44,026 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 21:14:44,026 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 21:14:44,027 INFO o.u.App [main] The total average qualification is : 0
-2022-03-24 21:16:20,805 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 21:16:20,805 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -244,7 +244,7 @@ Set your Information
 2022-03-24 21:16:27,144 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 21:16:27,144 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 21:16:27,145 INFO o.u.App [main] The total average qualification is : 0
-2022-03-24 22:11:22,991 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 22:11:22,991 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -262,7 +262,7 @@ Set your Information
 2022-03-24 22:11:29,094 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 22:11:29,094 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 22:11:29,096 INFO o.u.App [main] The total average qualification is : 0.0
-2022-03-24 22:17:22,480 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 22:17:22,480 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -280,7 +280,7 @@ Set your Information
 2022-03-24 22:17:27,591 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 22:17:27,591 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 22:17:27,593 INFO o.u.App [main] The total average qualification is : 0.0
-2022-03-24 22:28:24,416 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 22:28:24,416 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -298,7 +298,7 @@ Set your Information
 2022-03-24 22:29:28,552 INFO o.u.App [main] The lowest qualification is : 0
 2022-03-24 22:29:28,553 INFO o.u.App [main] The highest qualification is : 0
 2022-03-24 22:29:28,559 INFO o.u.App [main] The total average qualification is : 0.0
-2022-03-24 22:31:46,578 INFO o.u.e.UserInteractionClass [main] As a student you can: 
+2022-03-24 22:31:46,578 INFO o.u.e.UserInteractionClass [main] As a EStudent you can:
 Set your Information 
   Get your average point 
  Get your highest qualification 
@@ -327,7 +327,7 @@ Set your Information
 Create exams 
 Calculate payment
 2022-03-25 22:42:04,743 INFO o.u.e.Teacher [main] Enter the following teacher's data: 
-2022-03-25 22:42:04,744 INFO o.u.e.Teacher [main] Enter the following student's data: 
+2022-03-25 22:42:04,744 INFO o.u.e.Teacher [main] Enter the following EStudent's data:
 2022-03-25 22:42:04,744 INFO o.u.e.Teacher [main] Enter your name
 2022-03-25 22:42:11,150 INFO o.u.e.Teacher [main] Enter your surname
 2022-03-25 22:42:13,648 INFO o.u.e.Teacher [main] Enter your phone number
@@ -341,7 +341,7 @@ Calculate payment
 Create exams 
 Calculate payment
 2022-03-26 11:44:36,212 INFO o.u.e.Teacher [main] Enter the following teacher's data: 
-2022-03-26 11:44:36,212 INFO o.u.e.Teacher [main] Enter the following student's data: 
+2022-03-26 11:44:36,212 INFO o.u.e.Teacher [main] Enter the following EStudent's data:
 2022-03-26 11:44:36,212 INFO o.u.e.Teacher [main] Enter your name
 2022-03-26 11:44:47,923 INFO o.u.e.Teacher [main] Enter your surname
 2022-03-26 11:44:50,412 INFO o.u.e.Teacher [main] Enter your phone number
@@ -525,10 +525,10 @@ Calculate payment
 2022-03-26 14:07:16,390 INFO o.u.s.s.CourseImpl [main] Enter three students, please. 2
 2022-03-26 14:07:17,825 INFO o.u.s.s.CourseImpl [main] Enter three students, please. 3
 2022-03-26 14:07:19,227 INFO o.u.s.s.CourseImpl [main] Enter three students, please. 4
-2022-03-26 14:07:22,936 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of student: Andy
-2022-03-26 14:07:22,936 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of student: German
-2022-03-26 14:07:22,936 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of student: Lucas
-2022-03-26 14:07:22,937 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of student: zoe
+2022-03-26 14:07:22,936 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of EStudent: Andy
+2022-03-26 14:07:22,936 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of EStudent: German
+2022-03-26 14:07:22,936 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of EStudent: Lucas
+2022-03-26 14:07:22,937 INFO o.u.s.s.CourseImpl [main] This is one element of the collection of EStudent: zoe
 2022-03-26 14:07:22,937 INFO o.u.App [main] Now let's calculate your salary
 2022-03-26 14:07:22,993 INFO o.u.e.Employee [main] Enter the base monthly income
 2022-03-26 14:35:59,182 INFO o.u.e.UserInteractionClass [main] As a teacher you can:Add classes 
@@ -1083,9 +1083,9 @@ Calculate payment
 Create exams 
 Calculate payment
 2022-03-30 22:50:52,388 INFO o.u.s.s.CelatorImpl [main] Enter the number of students: 
-2022-03-30 22:50:56,536 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-03-30 22:50:56,536 INFO o.u.s.s.CelatorImpl [main] Enter the name of the EStudent:
 2022-03-30 22:51:01,111 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
-2022-03-30 22:51:03,040 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-03-30 22:51:03,040 INFO o.u.s.s.CelatorImpl [main] Enter the name of the EStudent:
 2022-03-30 22:51:04,775 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
 2022-03-30 22:51:06,168 INFO o.u.s.s.CelatorImpl [main] {luis=4, ger=8}
 2022-03-31 16:13:39,089 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University
@@ -1096,11 +1096,11 @@ Calculate payment
 Create exams 
 Calculate payment
 2022-04-02 15:19:17,583 INFO o.u.s.s.CelatorImpl [main] Enter the number of students: 
-2022-04-02 15:19:21,256 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-04-02 15:19:21,256 INFO o.u.s.s.CelatorImpl [main] Enter the name of the EStudent:
 2022-04-02 15:19:24,985 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
-2022-04-02 15:19:27,464 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-04-02 15:19:27,464 INFO o.u.s.s.CelatorImpl [main] Enter the name of the EStudent:
 2022-04-02 15:19:31,326 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
-2022-04-02 15:19:32,576 INFO o.u.s.s.CelatorImpl [main] Enter the name of the student: 
+2022-04-02 15:19:32,576 INFO o.u.s.s.CelatorImpl [main] Enter the name of the EStudent:
 2022-04-02 15:19:35,576 INFO o.u.s.s.CelatorImpl [main] Now enter the qualification, please: 
 2022-04-02 15:19:37,321 INFO o.u.s.s.CelatorImpl [main] {leamn=4, evange=10, marti=7}
 2022-04-02 15:20:45,206 INFO o.u.e.UserInteractionClass [main] Please, enter your name to start navigating through our University

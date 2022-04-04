@@ -2,9 +2,7 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class StudentImplTest {
+class EStudentImplTest {
 
     @Test
     void addStudentInformation() {
