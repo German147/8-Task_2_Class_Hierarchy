@@ -1,10 +1,12 @@
 package service;
 
+import java.util.HashMap;
+
 public interface INoticeBoard {
 
-    void showExamNotice();
+    void showExamNotice(HashMap<String, Integer> qualifications);
 
-    void showResultQualifications();
+    void printQualifications(HashMap<String, Integer> qualification);
 
     void showDateExams();
 

@@ -1,12 +1,14 @@
 package service;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 
 public interface ICelator {
 
-    void takeAssistance();
 
-    void addSubject();
+    LinkedList<String> addSubject();
 
     HashMap<String, Integer> studentsQualifications();
+
+
 }
