@@ -3,15 +3,20 @@ package service.serviceImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.entity.People;
+import org.universityHierarchy.entity.Student;
 import service.IStudent;
 
 import java.util.Scanner;
+import java.util.function.Consumer;
 
 
 public class StudentImpl extends People implements IStudent {
 
     private static final Logger LOGGER = LogManager.getLogger(StudentImpl.class);
     private static final Scanner scanner = new Scanner(System.in);
+    static Consumer<Student> greetCustomerFunction = student ->
+            System.out.println("Hello " + student.getName() + " Thanks for registering" +
+                    "your phone number " + student.getPhoneNumber());
     private static int[] qualifications;
 
     @Override
