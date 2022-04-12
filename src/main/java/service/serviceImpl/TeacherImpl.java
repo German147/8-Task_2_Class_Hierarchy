@@ -22,11 +22,6 @@ public class TeacherImpl extends TeacherInformation implements ITeacher {
     }
 
     @Override
-    public List createExams() {
-        return null;
-    }
-
-    @Override
     public void printExams(List examsLists) {
 
     }

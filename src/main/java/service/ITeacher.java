@@ -9,8 +9,6 @@ public interface ITeacher {
 
     String[] createClasses();
 
-    List createExams();
-
     void printExams(List examsLists);
 
     LinkedList<String> createYearlyPlanningTopics();

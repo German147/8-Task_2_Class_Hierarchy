@@ -2,7 +2,7 @@ package service;
 
 public interface IStudent {
 
-    int getExamsTotalAverageQualifications(double qualifications,int examsNumber );
+    int getExamsTotalAverageQualifications(double qualifications, int examsNumber);
 
     int setExamsQuantity();
 
@@ -15,8 +15,6 @@ public interface IStudent {
     int[] setQualificationsExams(int quantityExams);
 
     double calculateSumOfQualifications(int[] qualifications);
-
-
 
 
 }
