@@ -1280,3 +1280,94 @@ Set your Information
 
 2022-04-12 15:49:45,446 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
  {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:27:20,248 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:27:20,253 INFO o.u.App [main] Here are the exams created: 
+[Maths 1, English Pronunciation, History in West europe, Argentina's Parliament]
+2022-04-12 16:27:20,255 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:27:20,257 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:27:20,259 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+
+2022-04-12 16:27:20,260 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:28:21,573 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:28:21,576 INFO o.u.App [main] Here are the exams created: 
+[Maths 1, English Pronunciation, History in West europe, Argentina's Parliament]
+2022-04-12 16:28:21,577 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:28:21,578 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:28:21,579 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+
+2022-04-12 16:28:21,580 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:30:06,011 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:30:06,014 INFO o.u.App [main] Here are the exams created: 
+[Maths 1, English Pronunciation, History in West europe, Argentina's Parliament]
+2022-04-12 16:30:06,015 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:30:06,016 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:30:06,016 INFO o.u.App [main] 
+
+2022-04-12 16:30:06,017 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 16:30:06,018 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:31:34,505 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:31:34,511 INFO o.u.App [main] Here are the exams created: 
+[Maths 1, English Pronunciation, History in West europe, Argentina's Parliament]
+2022-04-12 16:31:34,512 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:31:34,513 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:31:34,513 INFO o.u.App [main] 
+
+2022-04-12 16:31:34,514 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 16:31:34,515 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:43:38,189 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:44:50,700 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:44:50,706 INFO o.u.App [main] Here are the exams created: 
+[Maths 1, English Pronunciation, History in West europe, Argentina's Parliament]
+2022-04-12 16:44:50,707 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:44:50,708 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:44:50,708 INFO o.u.App [main] 
+
+2022-04-12 16:44:50,709 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 16:44:50,709 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:47:31,801 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:47:31,806 INFO o.u.App [main] Here are the exams created: 
+[Argentina's Parliament, English Pronunciation, History in West europe, Maths 1]
+2022-04-12 16:47:31,808 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:47:31,809 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:47:31,809 INFO o.u.App [main] 
+
+2022-04-12 16:47:31,810 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 16:47:31,811 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:52:03,788 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:52:03,793 INFO o.u.App [main] Here are the exams created: 
+[Argentina's Parliament, English Pronunciation, History in West europe, Maths 1]
+2022-04-12 16:52:03,793 INFO o.u.App [main] 
+
+2022-04-12 16:52:03,794 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:52:03,795 INFO o.u.App [main] We have just created the subjects, here they are: 
+ [Maths, Biology, History, Physics, PE, Literature, Economics, Computing]
+2022-04-12 16:52:03,795 INFO o.u.App [main] 
+
+2022-04-12 16:52:03,796 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 16:52:03,796 INFO o.u.App [main] Here we have just created some exams and its qualifications : 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 16:57:08,110 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 16:57:08,115 INFO o.u.App [main] Here are the exams created and sorted with streams: 
+[Argentina's Parliament, English Pronunciation, History in West europe, Maths 1]
+2022-04-12 16:57:08,115 INFO o.u.App [main] 
+
+2022-04-12 16:57:08,116 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 16:57:08,117 INFO o.u.App [main] They have also been sorted within stream, here they are: 
+ [Biology, Computing, Economics, History, Literature, Maths, PE, Physics]
+2022-04-12 16:57:08,117 INFO o.u.App [main] 
+
+2022-04-12 16:57:08,118 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 16:57:08,118 INFO o.u.App [main] Here we have just created some exams and its qualifications: 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
