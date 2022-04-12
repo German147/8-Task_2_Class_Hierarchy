@@ -1,24 +1,20 @@
 package service;
 
+import java.util.LinkedList;
+
 public interface ICourse {
 
     int WORKSHOP_LENGTH = 3;
 
-    String[] createWorkshop();
-
-    String[] addSubjectToCourse();
-
-    void printWorkshop(String workshop[]);
-
-   void printSubjects(String subjects[]);
+    LinkedList<String> createWorkshop();
 
     String[] addStudentToCourse();
 
-    void printStudents(String students[]);
+    LinkedList<String> createTeacherList();
 
-    String[] addTeachers();
+    void printWorkshop(LinkedList<String> workshop);
 
-    void printTeachers(String teachers[]);
+    void printStudents(String[] students);
 
-
+    void printTeachers(LinkedList<String> teacherList);
 }
