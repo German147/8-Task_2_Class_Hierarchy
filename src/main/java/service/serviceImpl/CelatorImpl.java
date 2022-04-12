@@ -5,7 +5,6 @@ import org.apache.logging.log4j.Logger;
 import service.ICelator;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 
 public class CelatorImpl implements ICelator {
     private static final Logger LOGGER = LogManager.getLogger(CelatorImpl.class);
@@ -19,14 +18,14 @@ public class CelatorImpl implements ICelator {
         return qualifications;
     }
 
-    @Override
-    public LinkedList<String> addSubject() {
-        LinkedList<String> subjects = new LinkedList<>();
-        subjects.add("Maths");
-        subjects.add("Biology");
-        subjects.add("History");
-        return subjects;
-    }
+//    @Override
+//    public LinkedList<String> addSubject() {
+//        LinkedList<String> subjects = new LinkedList<>();
+//        subjects.add("Maths");
+//        subjects.add("Biology");
+//        subjects.add("History");
+//        return subjects;
+//    }
 
     //Scanner Class Approach
 //    @Override

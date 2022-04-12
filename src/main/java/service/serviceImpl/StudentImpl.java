@@ -81,9 +81,9 @@ public class StudentImpl extends People implements IStudent {
 //    @Override
 //    public int setExamsQuantity() {
 //        int examsNumber;
-//        LOGGER.info("Enter the amount of exams taken: ");
-//        examsNumber = scanner.nextInt();
-//        return examsNumber;
+////        LOGGER.info("Enter the amount of exams taken: ");
+////        examsNumber = scanner.nextInt();
+////        return examsNumber;
 //    }
 //
 //    @Override
