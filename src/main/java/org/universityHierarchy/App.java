@@ -46,7 +46,6 @@ public class App {
             exams.add("English Pronunciation");
             exams.add("History in West europe");
             exams.add("Argentina's Parliament");
-            exams.stream().sorted().collect(Collectors.toList());
             return exams;
         };
         IPrintExams showExams = (ICreateExams letsCreateExam) ->
@@ -57,6 +56,12 @@ public class App {
                                 .collect(Collectors.toList()));
         showExams.printExams(crateExams);
         LOGGER.info("\n");
+
+        IPrintExams showMinimumExam = (ICreateExams letsCreateExam) ->
+                LOGGER.info("Now here we use the Min comparator of stream to get the minimum exam \n" +
+                        letsCreateExam.createExams().stream().max(String::compareTo).get());
+        showMinimumExam.printExams(crateExams);
+
 
         IAddSubject addSubjects = () -> {
             LOGGER.info("Now let's create some subjects: ");
