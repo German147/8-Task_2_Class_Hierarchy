@@ -1414,3 +1414,18 @@ Maths 1
 2022-04-12 18:21:19,696 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
 2022-04-12 18:21:19,697 INFO o.u.App [main] Here we have just created some exams and its qualifications: 
  {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}
+2022-04-12 22:55:48,906 INFO o.u.App [main] Let' create and see an exams list: 
+2022-04-12 22:55:48,923 INFO o.u.App [main] Here are the exams created and sorted with streams: 
+[Argentina's Parliament, English Pronunciation, History in West europe, Maths 1]
+2022-04-12 22:55:48,924 INFO o.u.App [main] 
+
+2022-04-12 22:55:48,924 INFO o.u.App [main] Now here we use the Min comparator of stream to get the minimum exam 
+Argentina's Parliament
+2022-04-12 22:55:48,926 INFO o.u.App [main] Now let's create some subjects: 
+2022-04-12 22:55:48,926 INFO o.u.App [main] They have also been sorted within stream, here they are: 
+ [Biology, Computing, Economics, History, Literature, Maths, PE, Physics]
+2022-04-12 22:55:48,926 INFO o.u.App [main] 
+
+2022-04-12 22:55:48,927 INFO o.u.App [main] Now let's Create a HashMap with a key and a value: 
+2022-04-12 22:55:48,928 INFO o.u.App [main] Here we have just created some exams and its qualifications: 
+ {Maths=8, PE=10, Englsih=8, Biology=4, History=7, Physics=6}

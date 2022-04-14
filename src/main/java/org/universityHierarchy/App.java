@@ -59,7 +59,7 @@ public class App {
 
         IPrintExams showMinimumExam = (ICreateExams letsCreateExam) ->
                 LOGGER.info("Now here we use the Min comparator of stream to get the minimum exam \n" +
-                        letsCreateExam.createExams().stream().max(String::compareTo).get());
+                        letsCreateExam.createExams().stream().min(String::compareTo).get());
         showMinimumExam.printExams(crateExams);
 
 
