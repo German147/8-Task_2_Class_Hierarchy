@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 
 public class App {
@@ -47,9 +48,19 @@ public class App {
             exams.add("Argentina's Parliament");
             return exams;
         };
-        IPrintExams showExams = (ICreateExams cratingExams) ->
-                LOGGER.info("Here are the exams created: \n" + cratingExams.createExams());
+        IPrintExams showExams = (ICreateExams letsCreateExam) ->
+                LOGGER.info("Here are the exams created and sorted with streams: \n" +
+                        letsCreateExam.createExams()
+                                .stream()
+                                .sorted()
+                                .collect(Collectors.toList()));
         showExams.printExams(crateExams);
+        LOGGER.info("\n");
+
+        IPrintExams showMinimumExam = (ICreateExams letsCreateExam) ->
+                LOGGER.info("Now here we use the Min comparator of stream to get the minimum exam \n" +
+                        letsCreateExam.createExams().stream().min(String::compareTo).get());
+        showMinimumExam.printExams(crateExams);
 
 
         IAddSubject addSubjects = () -> {
@@ -67,11 +78,17 @@ public class App {
 
         };
         IPrintSubjects printingSubjects = (IAddSubject addingSubjects) ->
-                LOGGER.info("We have just created the subjects, here they are: \n " + addingSubjects.addSubject());
+                LOGGER.info("They have also been sorted within stream, here they are: \n "
+                        + addingSubjects
+                        .addSubject()
+                        .stream()
+                        .sorted()
+                        .collect(Collectors.toList()));
         printingSubjects.printSubjects(addSubjects);
+        LOGGER.info("\n");
 
         ICreateExamsQualifications qualifications = () -> {
-            LOGGER.info("Now let's Create a HashMap with a key and a value: \n");
+            LOGGER.info("Now let's Create a HashMap with a key and a value: ");
             HashMap<String, Integer> settingQualificationAndExams = new HashMap<>();
             settingQualificationAndExams.put("Maths", 8);
             settingQualificationAndExams.put("Biology", 4);
@@ -79,10 +96,11 @@ public class App {
             settingQualificationAndExams.put("PE", 10);
             settingQualificationAndExams.put("Englsih", 8);
             settingQualificationAndExams.put("Physics", 6);
+
             return settingQualificationAndExams;
         };
         IPrintQualificationsAndExams printingQualifications = (ICreateExamsQualifications qualif) ->
-                LOGGER.info("Here we have just created some exams and its qualifications : \n " +
+                LOGGER.info("Here we have just created some exams and its qualifications: \n " +
                         qualif.creatingExamsQualifications());
         printingQualifications.printExams(qualifications);
 
