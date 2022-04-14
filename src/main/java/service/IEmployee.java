@@ -2,11 +2,11 @@ package service;
 
 public interface IEmployee {
 
-     int gettingYearsOfWork();
+    int gettingYearsOfWork();
 
-     double gettingIncome();
+    double gettingIncome();
 
-     double gettingPercentage(int workingYears);
+    double gettingPercentage(int workingYears);
 
     double calculateNetIncomeByWorkingYears(double netIncome, double percentage);
 }
