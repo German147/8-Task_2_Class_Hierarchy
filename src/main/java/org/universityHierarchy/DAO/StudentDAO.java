@@ -1,7 +1,7 @@
 package org.universityHierarchy.DAO;
 
 import org.universityHierarchy.entity.Student;
-import service.IEntity_DAO;
+import org.universityHierarchy.service.IEntity_DAO;
 
 public class StudentDAO implements IEntity_DAO<Student> {
     @Override

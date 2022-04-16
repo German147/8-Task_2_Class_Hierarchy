@@ -1,9 +1,9 @@
 package org.universityHierarchy.DAO;
 
 import org.universityHierarchy.entity.Teacher;
-import service.IEntity_DAO;
+import org.universityHierarchy.service.IEntity_DAO;
 
-public class TeacherDAO implements IEntity_DAO<Teacher>{
+public class TeacherDAO implements IEntity_DAO<Teacher> {
     @Override
     public void addEntity(Teacher entity) {
 

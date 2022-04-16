@@ -1,9 +1,12 @@
 package org.universityHierarchy.entity;
 
-public class People extends Neighborhood{
+import java.util.Date;
+
+public class People extends Neighborhood {
     private String name;
     private String surname;
     private String phoneNumber;
+    private Date birthDate;
 
     public People() {
     }
@@ -30,5 +33,13 @@ public class People extends Neighborhood{
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
     }
 }

@@ -31,7 +31,7 @@ public class App {
         System.out.println("This is located in " + universityLocation);
         //Here I initialize an object
         Student german = new Student();
-        german.setName("German Garmendia");
+        german.setName("German Barrera");
         german.setPhoneNumber("456789123");
         german.setStudent_id(007);
         //Here I inject the previous object to the function

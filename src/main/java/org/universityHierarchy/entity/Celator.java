@@ -4,7 +4,7 @@ package org.universityHierarchy.entity;
 public class Celator<S, U> {
 
     private long celator_id;
-    private S dayTime;
+    private S dayTimeAssistance;
     private U courseInCharged;
 
     public Celator() {
@@ -19,11 +19,11 @@ public class Celator<S, U> {
     }
 
     public S getDayTime() {
-        return dayTime;
+        return dayTimeAssistance;
     }
 
-    public void setDayTime(S dayTime) {
-        this.dayTime = dayTime;
+    public void setDayTime(S dayTimeAssistance) {
+        this.dayTimeAssistance = dayTimeAssistance;
     }
 
     public U getCourseInCharged() {
