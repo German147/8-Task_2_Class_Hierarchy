@@ -1,10 +1,10 @@
 package org.universityHierarchy.service;
 
-import java.util.HashMap;
+import Lambda_Interfaces.ICreateExamsQualifications;
 
 public interface ICelator {
 
-    HashMap<String, Integer> studentsQualifications();
+    ICreateExamsQualifications studentsQualifications();
 
-
+    ICreateExamsQualifications printExamsAndQualifications(ICreateExamsQualifications examsAndQualifications);
 }
