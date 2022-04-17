@@ -3,10 +3,12 @@ package org.universityHierarchy;
 
 import Lambda_Interfaces.ICreateExams;
 import Lambda_Interfaces.ICreateExamsQualifications;
+import Lambda_Interfaces.ICreateSomething;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.service.ICelator;
 import org.universityHierarchy.service.serviceImpl.CelatorImpl;
+import org.universityHierarchy.service.serviceImpl.CourseImpl;
 import org.universityHierarchy.service.serviceImpl.TeacherImpl;
 
 
@@ -30,6 +32,11 @@ public class App {
         ICelator celator = new CelatorImpl();
         ICreateExamsQualifications qualificationsList = celator.studentsQualifications();
         celator.printExamsAndQualifications(qualificationsList);
+
+        CourseImpl course = new CourseImpl();
+        ICreateSomething workshops = course.createWorkShop();
+        course.printWorkshop(workshops);
+
 
     }
 }

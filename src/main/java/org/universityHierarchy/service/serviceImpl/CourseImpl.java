@@ -1,5 +1,7 @@
 package org.universityHierarchy.service.serviceImpl;
 
+import Lambda_Interfaces.ICreateSomething;
+import Lambda_Interfaces.ILambdaService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.service.ICourse;
@@ -11,6 +13,30 @@ public class CourseImpl implements ISubject, ICourse {
 
     private static final Logger LOGGER = LogManager.getLogger(CourseImpl.class);
     private static String[] subjects;
+
+    @Override
+    public ICreateSomething createWorkShop() {
+        ILambdaService print = () -> LOGGER.info("Let' create a WorkShop list of the University: ");
+        print.printSomething();
+
+        ICreateSomething<LinkedList<String>> uniWorkShops = () -> {
+            LinkedList<String> subjects = new LinkedList<>();
+            subjects.add("Introduction as a Freshman");
+            subjects.add("New Inverted Classes Style");
+            subjects.add("The basement of this University");
+            return subjects;
+        };
+        return uniWorkShops;
+    }
+
+    @Override
+    public ICreateSomething<LinkedList<String>> printWorkshop(ICreateSomething<LinkedList<String>> uniWorkShops) {
+        uniWorkShops.createSomething().stream().forEach((String) ->
+                LOGGER.info("This is one of the workshops Offered by the University: " +
+                        String + " ."));
+
+        return uniWorkShops;
+    }
 
     @Override
     public LinkedList<String> createTeacherList() {
