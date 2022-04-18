@@ -1,6 +1,6 @@
 package org.universityHierarchy.entity;
 
-public class Subject extends Course {
+public class Subject {
 
     private String subjectName;
 
@@ -14,6 +14,5 @@ public class Subject extends Course {
     public void setSubjectName(String subjectName) {
         this.subjectName = subjectName;
     }
-
 
 }

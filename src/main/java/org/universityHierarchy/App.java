@@ -33,9 +33,15 @@ public class App {
         ICreateExamsQualifications qualificationsList = celator.studentsQualifications();
         celator.printExamsAndQualifications(qualificationsList);
 
+        ICreateSomething studentList = celator.createStudentList();
+        celator.printStudentList(studentList);
+
         CourseImpl course = new CourseImpl();
         ICreateSomething workshops = course.createWorkShop();
         course.printWorkshop(workshops);
+
+        ICreateSomething teacherList = course.createTeacherList();
+        course.printTeachers(teacherList);
 
 
     }

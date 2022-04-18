@@ -1,6 +1,8 @@
 package org.universityHierarchy.entity;
 
 
+import HomeWork_ENUM_Lecture_9.EGender;
+
 import java.util.Date;
 import java.util.Objects;
 
@@ -8,8 +10,15 @@ public class Student extends People {
 
     private int student_id;
     private Date entranceToUniversity;
+    private EGender gender;
 
     public Student() {
+    }
+
+    public Student(int student_id, Date entranceToUniversity, EGender gender) {
+        this.student_id = student_id;
+        this.entranceToUniversity = entranceToUniversity;
+        this.gender = gender;
     }
 
     public int getStudent_id() {
@@ -26,6 +35,16 @@ public class Student extends People {
 
     public void setEntranceToUniversity(Date entranceToUniversity) {
         this.entranceToUniversity = entranceToUniversity;
+    }
+
+    @Override
+    public EGender getGender() {
+        return gender;
+    }
+
+    @Override
+    public void setGender(EGender gender) {
+        this.gender = gender;
     }
 
     @Override

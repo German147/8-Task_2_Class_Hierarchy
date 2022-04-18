@@ -10,17 +10,9 @@ public interface ICourse {
 
     ICreateSomething createWorkShop();
 
-    LinkedList<String> createWorkshop();
-
-    String[] addStudentToCourse();
-
-    LinkedList<String> createTeacherList();
+    ICreateSomething<LinkedList<String>> createTeacherList();
 
     ICreateSomething<LinkedList<String>> printWorkshop(ICreateSomething<LinkedList<String>> uniWorkShops);
 
-    void printWorkshop(LinkedList<String> workshop);
-
-    void printStudents(String[] students);
-
-    void printTeachers(LinkedList<String> teacherList);
+    ICreateSomething<LinkedList<String>> printTeachers(ICreateSomething<LinkedList<String>> teacherList);
 }
