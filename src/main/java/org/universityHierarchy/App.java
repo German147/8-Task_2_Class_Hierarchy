@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.service.ICelator;
 import org.universityHierarchy.service.serviceImpl.CelatorImpl;
 import org.universityHierarchy.service.serviceImpl.CourseImpl;
+import org.universityHierarchy.service.serviceImpl.EmployeeImpl;
 import org.universityHierarchy.service.serviceImpl.TeacherImpl;
 
 
@@ -43,6 +44,8 @@ public class App {
         ICreateSomething teacherList = course.createTeacherList();
         course.printTeachers(teacherList);
 
+        EmployeeImpl employee = new EmployeeImpl();
+        
 
     }
 }
