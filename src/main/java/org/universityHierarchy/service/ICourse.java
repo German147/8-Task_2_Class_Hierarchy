@@ -1,6 +1,6 @@
 package org.universityHierarchy.service;
 
-import Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
 
 import java.util.LinkedList;
 

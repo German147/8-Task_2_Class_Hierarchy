@@ -1,7 +1,7 @@
 package org.universityHierarchy.service;
 
-import Lambda_Interfaces.ICreateExams;
-import Lambda_Interfaces.IPrintExams;
+import org.universityHierarchy.Lambda_Interfaces.ICreateExams;
+import org.universityHierarchy.Lambda_Interfaces.IPrintExams;
 
 
 public interface ITeacher {

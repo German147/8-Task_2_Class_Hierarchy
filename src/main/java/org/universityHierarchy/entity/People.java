@@ -1,10 +1,17 @@
 package org.universityHierarchy.entity;
 
-import HomeWork_ENUM_Lecture_9.EGender;
+import org.universityHierarchy.HomeWork_ENUM_Lecture_9.EGender;
 
 import java.util.Date;
 
 public class People extends Neighborhood {
+    /**
+     * Here these public fields are just for testing the ReflectionImplementation
+     * class purpose; to search the public fields of a class
+     */
+    public String testfield;
+    public Integer TestNumper;
+    public boolean isHereATest;
     private String name;
     private String surname;
     private String phoneNumber;

@@ -1,7 +1,7 @@
 package org.universityHierarchy.entity;
 
 
-import HomeWork_ENUM_Lecture_9.EGender;
+import org.universityHierarchy.HomeWork_ENUM_Lecture_9.EGender;
 
 import java.util.Date;
 import java.util.Objects;

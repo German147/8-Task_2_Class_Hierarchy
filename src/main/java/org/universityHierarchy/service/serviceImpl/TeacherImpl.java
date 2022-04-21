@@ -1,8 +1,8 @@
 package org.universityHierarchy.service.serviceImpl;
 
-import Lambda_Interfaces.ICreateExams;
-import Lambda_Interfaces.ILambdaService;
-import Lambda_Interfaces.IPrintExams;
+import org.universityHierarchy.Lambda_Interfaces.ICreateExams;
+import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
+import org.universityHierarchy.Lambda_Interfaces.IPrintExams;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.service.ITeacher;

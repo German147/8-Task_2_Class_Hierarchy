@@ -1,9 +1,9 @@
 package org.universityHierarchy;
 
 
-import Lambda_Interfaces.ICreateExams;
-import Lambda_Interfaces.ICreateExamsQualifications;
-import Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Lambda_Interfaces.ICreateExams;
+import org.universityHierarchy.Lambda_Interfaces.ICreateExamsQualifications;
+import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.universityHierarchy.service.ICelator;
@@ -45,7 +45,7 @@ public class App {
         course.printTeachers(teacherList);
 
         EmployeeImpl employee = new EmployeeImpl();
-        
+
 
     }
 }

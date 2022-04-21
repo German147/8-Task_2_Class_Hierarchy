@@ -1,10 +1,10 @@
 package org.universityHierarchy.service.serviceImpl;
 
-import Lambda_Interfaces.ICreateExamsQualifications;
-import Lambda_Interfaces.ICreateSomething;
-import Lambda_Interfaces.ILambdaService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.universityHierarchy.Lambda_Interfaces.ICreateExamsQualifications;
+import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
 import org.universityHierarchy.entity.People;
 import org.universityHierarchy.service.ICelator;
 
@@ -12,8 +12,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-import static HomeWork_ENUM_Lecture_9.EGender.FEMALE;
-import static HomeWork_ENUM_Lecture_9.EGender.MALE;
+import static org.universityHierarchy.HomeWork_ENUM_Lecture_9.EGender.FEMALE;
+import static org.universityHierarchy.HomeWork_ENUM_Lecture_9.EGender.MALE;
 
 public class CelatorImpl implements ICelator {
     static final Logger LOGGER = LogManager.getLogger(CelatorImpl.class);
@@ -26,6 +26,7 @@ public class CelatorImpl implements ICelator {
      */
     @Override
     public ICreateSomething<List<People>> createStudentList() {
+
         ILambdaService print = () -> LOGGER.info("Let's create a list of student: ");
         print.printSomething();
 
