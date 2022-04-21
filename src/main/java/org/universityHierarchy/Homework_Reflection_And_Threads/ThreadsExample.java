@@ -40,7 +40,8 @@ public class ThreadsExample {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("this is the run called from the Car Class");
+            LOGGER.info("this is the run called from the Car Class");
+            //   System.out.println("this is the run called from the Car Class");
         }
     }
 
@@ -53,7 +54,7 @@ public class ThreadsExample {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("This is the run method from the Car1 Class");
+            //  System.out.println("This is the run method from the Car1 Class");
             LOGGER.info("This is the run method from the Car1 Class");
         }
     }

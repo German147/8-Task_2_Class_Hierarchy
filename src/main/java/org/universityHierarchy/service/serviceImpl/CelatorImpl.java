@@ -103,46 +103,4 @@ public class CelatorImpl implements ICelator {
         ));
         return examsAndQualifications;
     }
-//    @Override
-//    public LinkedList<String> addSubject() {
-//        LinkedList<String> subjects = new LinkedList<>();
-//        subjects.add("Maths");
-//        subjects.add("Biology");
-//        subjects.add("History");
-//        return subjects;
-//    }
-
-    //Scanner Class Approach
-//    @Override
-//    public HashMap<String, Integer> studentsQualifications() {
-//        HashMap<String, Integer> studentsQualifications = new HashMap<>();
-//
-//
-//        Scanner scanner = new Scanner(System.in);
-//        LOGGER.info("Enter the number of students: ");
-//        int studentNumber = scanner.nextInt();
-//        scanner.nextLine();
-//        while (studentNumber-- > 0) {
-//            LOGGER.info("Enter the name of the student: ");
-//            String name = scanner.nextLine();
-//            name = name.trim();
-//            LOGGER.info("Now enter the qualification, please: ");
-//            int contact = scanner.nextInt();
-//            scanner.nextLine();
-//            studentsQualifications.put(name, contact);
-//        }
-//        LOGGER.info(studentsQualifications);
-//
-//        // obj.nextLine();
-//
-//        String search = scanner.nextLine();
-//        if (studentsQualifications.containsKey(search)) {
-//            Integer a = studentsQualifications.get(search);
-//            LOGGER.info(search + "=" + a);
-//        } else {
-//
-//            System.out.println("Not Found");
-//        }
-//        return studentsQualifications;
-//    }
 }

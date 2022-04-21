@@ -1,12 +1,14 @@
 package org.universityHierarchy.service.serviceImpl;
 
-import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
-import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
 import org.universityHierarchy.service.ICourse;
 
 import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class CourseImpl implements ICourse {
 
@@ -17,21 +19,24 @@ public class CourseImpl implements ICourse {
      * This method takes an ILambdaService to print a message, then I use an
      * ICreateSomething  Generic lambda interface lo create a LinkedList of WorkShops offered
      *
-     * @return a LinkedList of String
+     * @return a LinkedList of String sorted with stream()
      */
     @Override
     public ICreateSomething createWorkShop() {
         ILambdaService print = () -> LOGGER.info("Let' create a WorkShop list of the University: ");
         print.printSomething();
 
-        ICreateSomething<LinkedList<String>> uniWorkShops = () -> {
+        ICreateSomething<List<String>> uniWorkShops = () -> {
             LinkedList<String> subjects = new LinkedList<>();
-            subjects.add("Introduction as a Freshman");
-            subjects.add("New Inverted Classes Style");
             subjects.add("The basement of this University");
-            return subjects;
+            subjects.add("Accidents at University - How to Prosed");
+            subjects.add("Introduction as a Freshman");
+            subjects.add("New Inverted Lecture Style");
+            List<String> orderedSubjects = subjects.stream().sorted().collect(Collectors.toList());
+            return orderedSubjects;
         };
         return uniWorkShops;
+
     }
 
     /**
@@ -42,7 +47,7 @@ public class CourseImpl implements ICourse {
      * linkedList in it.
      */
     @Override
-    public ICreateSomething<LinkedList<String>> printWorkshop(ICreateSomething<LinkedList<String>> uniWorkShops) {
+    public ICreateSomething<List<String>> printWorkshop(ICreateSomething<List<String>> uniWorkShops) {
         uniWorkShops.createSomething().stream().forEach((String) ->
                 LOGGER.info("This is one of the workshops Offered by the University: " +
                         String + " ."));
@@ -66,10 +71,10 @@ public class CourseImpl implements ICourse {
             teacherLists.add("Mr. Brown");
             teacherLists.add("Mss. Jones");
             teacherLists.add("Mr. Simpson");
+
             return teacherLists;
         };
         return teacherList;
-
     }
 
     /**

@@ -70,8 +70,8 @@ public class ReflectionImplementation {
                 if (constructors.getParameterCount() == 1) {
                     LOGGER.info("No args constructor were found");
                 } else {
-                    Parameter[] paremeter = constructors.getParameters();
-                    for (Parameter params : paremeter) {
+                    Parameter[] parameter = constructors.getParameters();
+                    for (Parameter params : parameter) {
                         LOGGER.info("Parameter's name: " + params.getName() + " : " + params.getType());
                     }
                 }
