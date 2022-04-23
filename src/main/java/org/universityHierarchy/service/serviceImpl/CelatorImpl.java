@@ -2,10 +2,11 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.Lambda_Interfaces.ICreateExamsQualifications;
-import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
-import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateExamsQualifications;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ILambdaService;
 import org.universityHierarchy.entity.People;
+import org.universityHierarchy.exceptions.StudentNotSetInformation;
 import org.universityHierarchy.service.ICelator;
 
 import java.util.Date;
@@ -29,17 +30,21 @@ public class CelatorImpl implements ICelator {
 
         ILambdaService print = () -> LOGGER.info("Let's create a list of student: ");
         print.printSomething();
+        try {
+            ICreateSomething<List<People>> studentsList = () -> {
+                List<People> students = List.of(
+                        new People("Juan", "Molina", "789465", new Date(2005 - 04 - 03), MALE),
+                        new People("Martha", "Bellini", "7415418", new Date(2004 - 06 - 07), FEMALE),
+                        new People("Lorena", "Barrera", "852352", new Date(2003 - 07 - 01), FEMALE),
+                        new People("Carlos", "Muller", "963147", new Date(2004 - 11 - 10), MALE)
+                );
+                return students;
+            };
+            return studentsList;
+        } catch (EnumConstantNotPresentException | ArrayStoreException e) {
+            throw new StudentNotSetInformation("The list of student was not created");
+        }
 
-        ICreateSomething<List<People>> studentsList = () -> {
-            List<People> students = List.of(
-                    new People("Juan", "Molina", "789465", new Date(2005 - 04 - 03), MALE),
-                    new People("Martha", "Bellini", "7415418", new Date(2004 - 06 - 07), FEMALE),
-                    new People("Lorena", "Barrera", "852352", new Date(2003 - 07 - 01), FEMALE),
-                    new People("Carlos", "Muller", "963147", new Date(2004 - 11 - 10), MALE)
-            );
-            return students;
-        };
-        return studentsList;
     }
 
     /**
@@ -87,6 +92,11 @@ public class CelatorImpl implements ICelator {
             return qualifications;
         };
         return createQualif;
+
+        /*we can iterate a MAp like thisor use a strem().filter()
+        for (Map.Entry<String,String> entry : gfg.entrySet())
+            System.out.println("Key = " + entry.getKey() +
+                    ", Value = " + entry.getValue());*/
     }
 
     /**

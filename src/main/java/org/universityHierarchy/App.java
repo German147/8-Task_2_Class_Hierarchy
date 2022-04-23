@@ -1,15 +1,14 @@
 package org.universityHierarchy;
 
 
-import org.universityHierarchy.Lambda_Interfaces.ICreateExams;
-import org.universityHierarchy.Lambda_Interfaces.ICreateExamsQualifications;
-import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateExams;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateExamsQualifications;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateSomething;
 import org.universityHierarchy.service.ICelator;
 import org.universityHierarchy.service.serviceImpl.CelatorImpl;
 import org.universityHierarchy.service.serviceImpl.CourseImpl;
-import org.universityHierarchy.service.serviceImpl.EmployeeImpl;
 import org.universityHierarchy.service.serviceImpl.TeacherImpl;
 
 
@@ -43,8 +42,6 @@ public class App {
 
         ICreateSomething teacherList = course.createTeacherList();
         course.printTeachers(teacherList);
-
-        EmployeeImpl employee = new EmployeeImpl();
 
 
     }

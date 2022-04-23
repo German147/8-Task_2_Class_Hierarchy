@@ -1,7 +1,7 @@
 package org.universityHierarchy.service;
 
-import org.universityHierarchy.Lambda_Interfaces.ICreateExamsQualifications;
-import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateExamsQualifications;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateSomething;
 import org.universityHierarchy.entity.People;
 
 import java.util.List;

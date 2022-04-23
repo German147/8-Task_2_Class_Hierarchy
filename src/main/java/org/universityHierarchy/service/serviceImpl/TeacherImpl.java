@@ -1,10 +1,12 @@
 package org.universityHierarchy.service.serviceImpl;
 
-import org.universityHierarchy.Lambda_Interfaces.ICreateExams;
-import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
-import org.universityHierarchy.Lambda_Interfaces.IPrintExams;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateExams;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ILambdaService;
+import org.universityHierarchy.Homework_Lambda_Interfaces.IPrintExams;
+import org.universityHierarchy.exceptions.ExamsNotCreatedExceptions;
+import org.universityHierarchy.exceptions.PrintInformationException;
 import org.universityHierarchy.service.ITeacher;
 
 import java.util.ArrayList;
@@ -30,16 +32,20 @@ public class TeacherImpl extends TeacherInformation implements ITeacher {
     public ICreateExams examsCreated() {
         ILambdaService print = () -> LOGGER.info("Let' create an exams list: ");
         print.printSomething();
-
-        ICreateExams crateExams = () -> {
-            List<String> exams = new ArrayList<>();
-            exams.add("Maths 1");
-            exams.add("English Pronunciation");
-            exams.add("History in West europe");
-            exams.add("Argentina's Parliament");
-            return exams;
-        };
-        return crateExams;
+        try {
+            ICreateExams crateExams = () -> {
+                List<String> exams = new ArrayList<>();
+                exams.add("Maths 1");
+                exams.add("English Pronunciation");
+                exams.add("History in West europe");
+                exams.add("Argentina's Parliament");
+                return exams;
+            };
+            return crateExams;
+        } catch (ArrayStoreException ase) {
+            LOGGER.debug(ase);
+            throw new ExamsNotCreatedExceptions("The exams were not created");
+        }
     }
 
     /**
@@ -52,14 +58,19 @@ public class TeacherImpl extends TeacherInformation implements ITeacher {
      */
     @Override
     public IPrintExams printExams(ICreateExams examsLists) {
-        IPrintExams showExams = (examsList) ->
-                LOGGER.info("Here are the exams created and sorted with streams: \n" +
-                        examsLists.createExams()
-                                .stream()
-                                .sorted()
-                                .collect(Collectors.toList()));
-        showExams.printExams(examsLists);
-        LOGGER.info("\n");
-        return showExams;
+        try {
+            IPrintExams showExams = (examsList) ->
+                    LOGGER.info("Here are the exams created and sorted with streams: \n" +
+                            examsLists.createExams()
+                                    .stream()
+                                    .sorted()
+                                    .collect(Collectors.toList()));
+            showExams.printExams(examsLists);
+            LOGGER.info("\n");
+            return showExams;
+        } catch (Exception e) {
+            throw new PrintInformationException("The exams could not be printed");
+        }
+
     }
 }

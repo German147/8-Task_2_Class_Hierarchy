@@ -2,8 +2,11 @@ package org.universityHierarchy.service.serviceImpl;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.universityHierarchy.Lambda_Interfaces.ICreateSomething;
-import org.universityHierarchy.Lambda_Interfaces.ILambdaService;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ICreateSomething;
+import org.universityHierarchy.Homework_Lambda_Interfaces.ILambdaService;
+import org.universityHierarchy.exceptions.AddTeachersToCourseException;
+import org.universityHierarchy.exceptions.PrintInformationException;
+import org.universityHierarchy.exceptions.WorkShopNotCreatedException;
 import org.universityHierarchy.service.ICourse;
 
 import java.util.LinkedList;
@@ -11,9 +14,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CourseImpl implements ICourse {
-
     private static final Logger LOGGER = LogManager.getLogger(CourseImpl.class);
-    private static String[] subjects;
+
+    public CourseImpl() {
+    }
 
     /**
      * This method takes an ILambdaService to print a message, then I use an
@@ -25,18 +29,21 @@ public class CourseImpl implements ICourse {
     public ICreateSomething createWorkShop() {
         ILambdaService print = () -> LOGGER.info("Let' create a WorkShop list of the University: ");
         print.printSomething();
-
-        ICreateSomething<List<String>> uniWorkShops = () -> {
-            LinkedList<String> subjects = new LinkedList<>();
-            subjects.add("The basement of this University");
-            subjects.add("Accidents at University - How to Prosed");
-            subjects.add("Introduction as a Freshman");
-            subjects.add("New Inverted Lecture Style");
-            List<String> orderedSubjects = subjects.stream().sorted().collect(Collectors.toList());
-            return orderedSubjects;
-        };
-        return uniWorkShops;
-
+        try {
+            ICreateSomething<List<String>> uniWorkShops = () -> {
+                LinkedList<String> subjects = new LinkedList<>();
+                subjects.add("The basement of this University");
+                subjects.add("Accidents at University - How to Prosed");
+                subjects.add("Introduction as a Freshman");
+                subjects.add("New Inverted Lecture Style");
+                List<String> orderedSubjects = subjects.stream().sorted().collect(Collectors.toList());
+                return orderedSubjects;
+            };
+            return uniWorkShops;
+        } catch (ArrayStoreException e) {
+            LOGGER.debug(e);
+            throw new WorkShopNotCreatedException("List of array not created");
+        }
     }
 
     /**
@@ -62,19 +69,21 @@ public class CourseImpl implements ICourse {
      */
     @Override
     public ICreateSomething<LinkedList<String>> createTeacherList() {
-
         ILambdaService print = () -> LOGGER.info("Now let's create a list of teacher using Generic Interface: ");
         print.printSomething();
-
-        ICreateSomething<LinkedList<String>> teacherList = () -> {
-            LinkedList<String> teacherLists = new LinkedList<>();
-            teacherLists.add("Mr. Brown");
-            teacherLists.add("Mss. Jones");
-            teacherLists.add("Mr. Simpson");
-
-            return teacherLists;
-        };
-        return teacherList;
+        try {
+            ICreateSomething<LinkedList<String>> teacherList = () -> {
+                LinkedList<String> teacherLists = new LinkedList<>();
+                teacherLists.add("Mr. Brown");
+                teacherLists.add("Mss. Jones");
+                teacherLists.add("Mr. Simpson");
+                return teacherLists;
+            };
+            return teacherList;
+        } catch (ArrayStoreException e) {
+            LOGGER.debug(e);
+            throw new AddTeachersToCourseException("The teacher list was not created");
+        }
     }
 
     /**
@@ -85,10 +94,13 @@ public class CourseImpl implements ICourse {
      */
     @Override
     public ICreateSomething<LinkedList<String>> printTeachers(ICreateSomething<LinkedList<String>> teacherList) {
-        teacherList.createSomething().stream().forEach((String) ->
-                LOGGER.info("One of the teacher is " + String + " ."));
-        return teacherList;
+        try {
+            teacherList.createSomething().stream().forEach((String) ->
+                    LOGGER.info("One of the teacher is " + String + " ."));
+            return teacherList;
+        } catch (Exception e) {
+            throw new PrintInformationException("The list of teacher cpuld not be printed");
+        }
+
     }
-
-
 }

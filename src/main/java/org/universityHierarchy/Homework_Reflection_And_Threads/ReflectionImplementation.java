@@ -32,7 +32,7 @@ public class ReflectionImplementation {
                 LOGGER.info(Modifier.toString(field.getModifiers())
                         + " " + field.getType().getName() + " " + field.getName());
             }
-        } catch (Throwable e) {
+        } catch (Exception e) {
             LOGGER.debug(e);
         }
     }
@@ -49,7 +49,7 @@ public class ReflectionImplementation {
             for (Method metodos : m) {
                 LOGGER.info("Here The METHOD'S name is " + metodos.getName() + " and the return type is " + metodos.getReturnType());
             }
-        } catch (Throwable e) {
+        } catch (Exception e) {
             LOGGER.debug(e);
         }
     }
@@ -76,7 +76,7 @@ public class ReflectionImplementation {
                     }
                 }
             }
-        } catch (Throwable e) {
+        } catch (Exception e) {
             LOGGER.debug(e);
         }
 
