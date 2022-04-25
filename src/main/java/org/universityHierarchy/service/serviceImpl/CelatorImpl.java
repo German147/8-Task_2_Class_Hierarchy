@@ -93,7 +93,7 @@ public class CelatorImpl implements ICelator {
         };
         return createQualif;
 
-        /*we can iterate a MAp like thisor use a strem().filter()
+        /*we can iterate a MAp like this or use a strem().filter()
         for (Map.Entry<String,String> entry : gfg.entrySet())
             System.out.println("Key = " + entry.getKey() +
                     ", Value = " + entry.getValue());*/

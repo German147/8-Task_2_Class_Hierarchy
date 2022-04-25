@@ -1,7 +1,6 @@
 package org.universityHierarchy.service;
 
 public interface IEmployee {
-
     //  Function<Integer, Integer> gettingYearsOfWork(Integer year);
 
 //gettingYearsOfWork();
