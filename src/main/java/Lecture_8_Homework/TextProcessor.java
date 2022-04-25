@@ -7,7 +7,8 @@ package Lecture_8_Homework;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Articles that I read to perform this task:
@@ -52,4 +53,5 @@ public class TextProcessor {
         }
         return cloningText;
     }
+
 }
