@@ -50,8 +50,8 @@ public class CelatorImpl implements ICelator {
     /**
      * This method prints the list of student created using an ICreateSomething generic lambda Interface
      *
-     * @param listOfStudents takes the list of student created
-     * @return an ICreateSomething Generic interface with the list of studen in it.
+     * @param listOfStudents takes the list of student already created
+     * @return an ICreateSomething Generic interface with the list of students in it.
      */
     @Override
     public ICreateSomething printStudentList(ICreateSomething<List<People>> listOfStudents) {
