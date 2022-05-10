@@ -21,7 +21,8 @@ public class GermanBarreraDOMParser {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newDefaultInstance();
 /**
- * In the following implementation I parse an xml file to be shown and display into the console
+ * In the following implementation I parse an xml file to be shown and
+ * display into the console
  */
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
