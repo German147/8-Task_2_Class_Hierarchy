@@ -9,5 +9,8 @@
         <module name="8-Task_2_Class_Hierarchy" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="barreraGermanJavaCRUD" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
