@@ -1,4 +1,4 @@
-package org.universityHierarchy.Homework_DOM_Parser;
+package org.universityHierarchy.Homework_Parser_with_DOM_STAX_SAX;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +20,9 @@ public class GermanBarreraDOMParser {
     public static void main(String[] args) {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newDefaultInstance();
-
+/**
+ * In the following implementation I parse an xml file to be shown and display into the console
+ */
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse("src/main/resources/books.xml");
@@ -32,7 +34,7 @@ public class GermanBarreraDOMParser {
                     //we cast b to Element type, then we grab the id attribute
                     Element book = (Element) b;
                     String id = book.getAttribute("id");
-                    //Now I start looking for the child classes
+                    //Now I start looking for the child classes names and content then I print it
                     NodeList authorList = book.getChildNodes();
                     for (int j = 0; j < authorList.getLength(); j++) {
                         Node authorName = authorList.item(j);
