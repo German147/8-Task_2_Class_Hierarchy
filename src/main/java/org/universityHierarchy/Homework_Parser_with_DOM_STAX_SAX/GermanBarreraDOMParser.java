@@ -26,7 +26,7 @@ public class GermanBarreraDOMParser {
  */
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse("src/main/resources/books.xml");
+            Document doc = builder.parse(System.getenv("FILE"));
             NodeList bookList = doc.getElementsByTagName("book");
             for (int i = 0; i < bookList.getLength(); i++) {
                 Node b = bookList.item(i);

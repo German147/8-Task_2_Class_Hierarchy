@@ -11,7 +11,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class GermanBarreraReadXml_UsingSAX extends DefaultHandler {
@@ -22,15 +21,10 @@ public class GermanBarreraReadXml_UsingSAX extends DefaultHandler {
 
         try {
             SAXParser p = SAXParserFactory.newInstance().newSAXParser();
-            p.parse(new FileInputStream("D:\\GERMAN\\PROGRAMACION\\Solvd\\src\\main\\resources\\books.xml"), new GermanBarreraReadXml_UsingSAX());
-        } catch (ParserConfigurationException e) {
-            LOGGER.debug(e);
-        } catch (SAXException e) {
-            LOGGER.debug(e);
-        } catch (FileNotFoundException e) {
-            LOGGER.debug(e);
-        } catch (IOException e) {
-            LOGGER.debug(e);
+            p.parse(new FileInputStream(System.getenv("FILE`")), new GermanBarreraReadXml_UsingSAX());
+        } catch (ParserConfigurationException | IOException | SAXException e) {
+            LOGGER.error(e.getMessage());
+
         }
     }
 
