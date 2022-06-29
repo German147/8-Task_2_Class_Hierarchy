@@ -48,12 +48,8 @@ public class GermanBarreraDOMParser {
                     }
                 }
             }
-        } catch (ParserConfigurationException pce) {
+        } catch (ParserConfigurationException | IOException | SAXException pce) {
             LOGGER.debug(pce);
-        } catch (IOException ioe) {
-            LOGGER.debug(ioe);
-        } catch (SAXException saxe) {
-            LOGGER.debug(saxe);
         }
     }
 }

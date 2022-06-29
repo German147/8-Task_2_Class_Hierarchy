@@ -27,7 +27,6 @@ public class CelatorImpl implements ICelator {
      */
     @Override
     public ICreateSomething<List<People>> createStudentList() {
-
         ILambdaService print = () -> LOGGER.info("Let's create a list of student: ");
         print.printSomething();
         try {
