@@ -3,6 +3,7 @@ package org.universityHierarchy.HomeWork_ENUM_Lecture_9;
 public enum SubMenuUniversity {
     ;
 
+
     private final MainMenu mainMenu;
     private final EStudent EStudent;
     private final EResearch eResearch;
