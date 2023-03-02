@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="8-Task_2_Class_Hierarchy" />
+        <module name="Solvd" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
